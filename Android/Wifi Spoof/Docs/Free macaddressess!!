@@ -1,0 +1,156 @@
+Nmap scan report for 10.22.160.2
+Host is up (0.0041s latency).
+MAC Address: 00:50:56:A9:82:A2 (VMware)
+Nmap scan report for 10.22.160.43
+Host is up (-0.092s latency).
+MAC Address: A0:D3:7A:4F:00:B5 (Intel Corporate)
+Nmap scan report for 10.22.160.89
+Host is up (0.0055s latency).
+MAC Address: 2C:6E:85:10:01:CB (Intel Corporate)
+Nmap scan report for 10.22.160.124
+Host is up (0.020s latency).
+MAC Address: 4C:BB:58:0B:0D:FA (Chicony Electronics)
+Nmap scan report for 10.22.160.126
+Host is up (0.010s latency).
+MAC Address: c (Unknown)
+Nmap scan report for 10.22.160.249
+Host is up (0.011s latency).
+MAC Address: D0:C5:D3:54:61:B5 (Unknown)
+Nmap scan report for 10.22.160.255
+Host is up (0.010s latency).
+MAC Address: 30:D1:6B:46:E7:C5 (Unknown)
+Nmap scan report for 10.22.161.7
+Host is up (0.055s latency).
+MAC Address: 50:76:AF:A0:50:82 (Unknown)
+Nmap scan report for 10.22.161.66
+Host is up (-0.100s latency).
+MAC Address: 48:89:E7:C6:08:0E (Unknown)
+Nmap scan report for 10.22.161.93
+Host is up (0.040s latency).
+MAC Address: F0:18:98:54:19:53 (Unknown)
+Nmap scan report for 10.22.161.223
+Host is up (0.0066s latency).
+MAC Address: 98:2C:BC:D5:9D:D2 (Unknown)
+Nmap scan report for 10.22.162.213
+Host is up (0.014s latency).
+MAC Address: 94:E9:79:6C:A1:89 (Liteon Technology)
+Nmap scan report for 10.22.163.3
+Host is up (0.0072s latency).
+MAC Address: 20:16:B9:4A:72:6B (Unknown)
+Nmap scan report for 10.22.163.18
+Host is up (0.021s latency).
+MAC Address: 78:0C:B8:09:94:DF (Intel Corporate)
+Nmap scan report for 10.22.163.56
+Host is up (-0.12s latency).
+MAC Address: E0:94:67:54:41:AB (Intel Corporate)
+Nmap scan report for 10.22.164.11
+Host is up (-0.052s latency).
+MAC Address: C8:69:CD:A6:22:C4 (Apple)
+Nmap scan report for 10.22.164.59
+Host is up (0.010s latency).
+MAC Address: CC:B0:DA:7C:59:CF (Liteon Technology)
+Nmap scan report for 10.22.164.115
+Host is up (-0.11s latency).
+MAC Address: 68:07:15:E2:F1:21 (Intel Corporate)
+Nmap scan report for 10.22.164.151
+Host is up (0.0067s latency).
+MAC Address: C8:FF:28:06:B0:07 (Liteon Technology)
+Nmap scan report for 10.22.164.171
+Host is up (0.019s latency).
+MAC Address: 64:6E:69:3C:4B:37 (Liteon Technology)
+Nmap scan report for 10.22.164.208
+Host is up (-0.093s latency).
+MAC Address: 88:B1:11:E5:30:A3 (Intel Corporate)
+Nmap scan report for 10.22.164.244
+Host is up (-0.17s latency).
+MAC Address: 80:91:33:2C:4E:F1 (Unknown)
+Nmap scan report for 10.22.165.4
+Host is up (0.0050s latency).
+MAC Address: 74:70:FD:C8:92:2C (Unknown)
+Nmap scan report for 10.22.165.13
+Host is up (0.010s latency).
+MAC Address: 48:F1:7F:47:0E:D7 (Unknown)
+Nmap scan report for 10.22.165.19
+Host is up (-0.093s latency).
+MAC Address: 48:F1:7F:47:E6:13 (Unknown)
+Nmap scan report for 10.22.165.28
+Host is up (0.010s latency).
+MAC Address: D0:C5:D3:2F:44:03 (Unknown)
+Nmap scan report for 10.22.165.52
+Host is up (0.0099s latency).
+MAC Address: 60:F6:77:7A:A1:39 (Intel Corporate)
+Nmap scan report for 10.22.165.65
+Host is up (0.0055s latency).
+MAC Address: 70:1C:E7:60:32:E0 (Intel Corporate)
+Nmap scan report for 10.22.165.99
+Host is up (0.035s latency).
+MAC Address: AC:D1:B8:D5:16:ED (Hon Hai Precision Ind.)
+Nmap scan report for 10.22.165.128
+Host is up (0.071s latency).
+MAC Address: 80:C5:F2:8E:37:59 (Unknown)
+Nmap scan report for 10.22.165.139
+Host is up (0.0061s latency).
+MAC Address: 3C:95:09:B5:48:F7 (Liteon Technology)
+Nmap scan report for 10.22.165.162
+Host is up (0.060s latency).
+MAC Address: 74:C6:3B:8C:E5:81 (AzureWave Technology)
+Nmap scan report for 10.22.165.180
+Host is up (0.047s latency).
+MAC Address: 7C:67:A2:81:95:75 (Intel Corporate)
+Nmap scan report for 10.22.165.187
+Host is up (-0.099s latency).
+MAC Address: 24:FD:52:D3:4A:E3 (Liteon Technology)
+Nmap scan report for 10.22.165.207
+Host is up (0.039s latency).
+MAC Address: 60:F6:77:65:34:ED (Intel Corporate)
+Nmap scan report for 10.22.166.22
+Host is up (-0.052s latency).
+MAC Address: 3C:A0:67:A0:A7:03 (Liteon Technology)
+Nmap scan report for 10.22.166.36
+Host is up (0.076s latency).
+MAC Address: 48:5A:B6:86:A8:E1 (Hon Hai Precision Ind.)
+Nmap scan report for 10.22.166.48
+Host is up (-0.093s latency).
+MAC Address: 9C:DA:3E:E5:BD:16 (Intel Corporate)
+Nmap scan report for 10.22.166.54
+Host is up (0.082s latency).
+MAC Address: E4:70:B8:8B:38:00 (Intel Corporate)
+Nmap scan report for 10.22.166.145
+Host is up (0.0042s latency).
+MAC Address: F0:03:8C:57:99:1F (AzureWave Technology)
+Nmap scan report for 10.22.166.149
+Host is up (0.013s latency).
+MAC Address: D4:6D:6D:23:D2:05 (Unknown)
+Nmap scan report for 10.22.166.150
+Host is up (0.0080s latency).
+MAC Address: 3C:A0:67:6D:56:A3 (Liteon Technology)
+Nmap scan report for 10.22.166.166
+Host is up (-0.10s latency).
+MAC Address: C8:FF:28:2C:C2:0D (Liteon Technology)
+Nmap scan report for 10.22.166.168
+Host is up (0.0081s latency).
+MAC Address: 60:F6:77:E4:03:C2 (Intel Corporate)
+Nmap scan report for 10.22.166.179
+Host is up (0.033s latency).
+MAC Address: 8C:85:90:9F:D8:8B (Apple)
+Nmap scan report for 10.22.167.118
+Host is up (0.010s latency).
+MAC Address: 60:F6:77:E3:F4:F9 (Intel Corporate)
+Nmap scan report for 10.22.167.211
+Host is up (-0.094s latency).
+MAC Address: 4C:BB:58:34:E3:6C (Chicony Electronics)
+Nmap scan report for 10.22.167.217
+Host is up (-0.096s latency).
+MAC Address: 30:E3:7A:7A:45:CC (Intel Corporate)
+Nmap scan report for 10.22.167.221
+Host is up (0.13s latency).
+MAC Address: C4:8E:8F:F4:50:A9 (Hon Hai Precision Ind.)
+Nmap scan report for 10.22.167.232
+Host is up (0.0068s latency).
+MAC Address: 58:00:E3:69:82:59 (Liteon Technology)
+Nmap scan report for 10.22.167.254
+Host is up.
+MAC Address: 20:4C:03:15:69:DC (Aruba Networks)
+Nmap scan report for 10.22.166.89
+Host is up.
+

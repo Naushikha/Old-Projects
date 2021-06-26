@@ -1,0 +1,13 @@
+,Sale,,,
+Sale ID:,3,,,
+Date/Time:,1/15/2019 9:02:23 PM,,,
+Customer:,Test Customer,,,
+Comment:,No comment.,,,
+Added User:,root,,,
+,,,,
+Product ID,Product Name,Product Serial,Quantity,Comment
+NS1,Cables,,1,
+NS2,Boxes,,1,
+S1,Computer,SAW123,,
+S2,Computer,DAS432,,
+

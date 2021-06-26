@@ -1,0 +1,160 @@
+Log file for 2/4/2019
+----------------------
+
+
+[ 11:35:09 PM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 11:35:09 PM ]   /+\ Connection to database recova2 at 127.0.0.1 using user name root successful !
+
+[ 11:35:09 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM school"
+
+[ 11:35:09 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:35:09 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:35:09 PM ]   /+\ Closing records success !
+
+[ 11:35:09 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM teacher"
+
+[ 11:35:09 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:35:09 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:35:09 PM ]   /+\ Closing records success !
+
+[ 11:35:09 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT SUM(numStud) FROM teacher"
+
+[ 11:35:09 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:35:09 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:35:09 PM ]   /+\ Closing records success !
+
+[ 11:35:09 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=1"
+
+[ 11:35:09 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:35:10 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:35:10 PM ]   /+\ Closing records success !
+
+[ 11:35:10 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=2"
+
+[ 11:35:10 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:35:10 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:35:10 PM ]   /+\ Closing records success !
+
+[ 11:35:10 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=3"
+
+[ 11:35:10 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:35:10 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:35:10 PM ]   /+\ Closing records success !
+
+[ 11:35:10 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM teacher WHERE name IS NULL"
+
+[ 11:35:10 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:35:10 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:35:10 PM ]   /+\ Closing records success !
+
+[ 11:35:10 PM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 11:35:10 PM ]   /+\ Connection to database recova2 at 127.0.0.1 using user name root successful !
+
+[ 11:35:10 PM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 11:35:10 PM ]   /+\ Connection to database recova2 at 127.0.0.1 using user name root successful !
+
+[ 11:35:22 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT name FROM school WHERE id="10002""
+
+[ 11:35:22 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:35:22 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:35:22 PM ]   /+\ Closing records success !
+
+[ 11:35:48 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT name FROM school WHERE id="10002""
+
+[ 11:35:48 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:35:48 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:35:48 PM ]   /+\ Closing records success !
+
+[ 11:35:52 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT name FROM school WHERE id="10002""
+
+[ 11:35:52 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:35:52 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:35:52 PM ]   /+\ Closing records success !
+
+[ 11:35:56 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id FROM teacher WHERE schoolId="10002""
+
+[ 11:35:56 PM ]   /!\ Query didn't return any records !
+
+[ 11:35:56 PM ]   /!\ Fetching data failed !
+
+[ 11:36:05 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id FROM teacher WHERE schoolId="10002""
+
+[ 11:36:05 PM ]   /!\ Query didn't return any records !
+
+[ 11:36:05 PM ]   /!\ Fetching data failed !
+
+[ 11:36:06 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id FROM teacher WHERE schoolId="10002""
+
+[ 11:36:06 PM ]   /!\ Query didn't return any records !
+
+[ 11:36:06 PM ]   /!\ Fetching data failed !
+
+[ 11:36:07 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id FROM teacher WHERE schoolId="10002""
+
+[ 11:36:07 PM ]   /!\ Query didn't return any records !
+
+[ 11:36:07 PM ]   /!\ Fetching data failed !
+
+[ 11:36:07 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id FROM teacher WHERE schoolId="10002""
+
+[ 11:36:07 PM ]   /!\ Query didn't return any records !
+
+[ 11:36:07 PM ]   /!\ Fetching data failed !
+
+[ 11:36:07 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id FROM teacher WHERE schoolId="10002""
+
+[ 11:36:07 PM ]   /!\ Query didn't return any records !
+
+[ 11:36:07 PM ]   /!\ Fetching data failed !
+
+[ 11:36:08 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id FROM teacher WHERE schoolId="10002""
+
+[ 11:36:08 PM ]   /!\ Query didn't return any records !
+
+[ 11:36:08 PM ]   /!\ Fetching data failed !
+
+[ 11:36:12 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id FROM teacher WHERE schoolId="10002""
+
+[ 11:36:12 PM ]   /!\ Query didn't return any records !
+
+[ 11:36:12 PM ]   /!\ Fetching data failed !
+
+[ 11:36:12 PM ]   /*\ Attempting to send data to dB using query "INSERT INTO teacher(recvDate,name,address,telephone,email,paymRef,prefDist,appMethod,numStud,schoolId,user) VALUES("2018-2-4","te","Te","1783812763","tre","BNK","12","PST","1","10002","root")"
+
+[ 11:36:12 PM ]   /+\ Data sent successfully !
+
+[ 11:36:12 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT LAST_INSERT_ID()"
+
+[ 11:36:12 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:36:12 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:36:12 PM ]   /+\ Closing records success !
+
+[ 11:36:12 PM ]   /*\ Attempting to send data to dB using query "INSERT INTO student(name,gender,dob,grade,slmc,medium,schoolId,teacherId) VALUES("ter","M","2006-01-01","6","1","S","10002","5")"
+
+[ 11:36:12 PM ]   /+\ Data sent successfully !
+

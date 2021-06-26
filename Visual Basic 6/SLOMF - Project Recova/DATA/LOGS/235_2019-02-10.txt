@@ -1,0 +1,108 @@
+Log file for 2/10/2019
+----------------------
+
+
+[ 12:32:10 PM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 12:32:10 PM ]   /+\ Connection to database newrecova at 127.0.0.1 using user name root successful !
+
+[ 12:32:10 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM school"
+
+[ 12:32:10 PM ]   /+\ Fetching data successful, records found !
+
+[ 12:32:10 PM ]   /*\ Attempting to close recordsID 1
+
+[ 12:32:10 PM ]   /+\ Closing records success !
+
+[ 12:32:10 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM teacher"
+
+[ 12:32:10 PM ]   /+\ Fetching data successful, records found !
+
+[ 12:32:10 PM ]   /*\ Attempting to close recordsID 1
+
+[ 12:32:10 PM ]   /+\ Closing records success !
+
+[ 12:32:10 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT SUM(numStud) FROM teacher"
+
+[ 12:32:10 PM ]   /+\ Fetching data successful, records found !
+
+[ 12:32:10 PM ]   /*\ Attempting to close recordsID 1
+
+[ 12:32:10 PM ]   /+\ Closing records success !
+
+[ 12:32:10 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=1"
+
+[ 12:32:10 PM ]   /+\ Fetching data successful, records found !
+
+[ 12:32:10 PM ]   /*\ Attempting to close recordsID 1
+
+[ 12:32:10 PM ]   /+\ Closing records success !
+
+[ 12:32:10 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=2"
+
+[ 12:32:10 PM ]   /+\ Fetching data successful, records found !
+
+[ 12:32:10 PM ]   /*\ Attempting to close recordsID 1
+
+[ 12:32:10 PM ]   /+\ Closing records success !
+
+[ 12:32:10 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=3"
+
+[ 12:32:10 PM ]   /+\ Fetching data successful, records found !
+
+[ 12:32:10 PM ]   /*\ Attempting to close recordsID 1
+
+[ 12:32:10 PM ]   /+\ Closing records success !
+
+[ 12:32:10 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM teacher WHERE name IS NULL"
+
+[ 12:32:10 PM ]   /+\ Fetching data successful, records found !
+
+[ 12:32:10 PM ]   /*\ Attempting to close recordsID 1
+
+[ 12:32:10 PM ]   /+\ Closing records success !
+
+[ 12:32:10 PM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 12:32:10 PM ]   /+\ Connection to database newrecova at 127.0.0.1 using user name root successful !
+
+[ 12:32:10 PM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 12:32:10 PM ]   /+\ Connection to database newrecova at 127.0.0.1 using user name root successful !
+
+[ 12:32:15 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT name FROM school WHERE id="10001""
+
+[ 12:32:15 PM ]   /+\ Fetching data successful, records found !
+
+[ 12:32:15 PM ]   /*\ Attempting to close recordsID 1
+
+[ 12:32:15 PM ]   /+\ Closing records success !
+
+[ 12:32:30 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id FROM teacher WHERE schoolId="10001""
+
+[ 12:32:30 PM ]   /!\ Query didn't return any records !
+
+[ 12:32:30 PM ]   /!\ Fetching data failed !
+
+[ 12:32:32 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id FROM teacher WHERE schoolId="10001""
+
+[ 12:32:32 PM ]   /!\ Query didn't return any records !
+
+[ 12:32:32 PM ]   /!\ Fetching data failed !
+
+[ 12:32:34 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id FROM teacher WHERE schoolId="10001""
+
+[ 12:32:34 PM ]   /!\ Query didn't return any records !
+
+[ 12:32:34 PM ]   /!\ Fetching data failed !
+
+[ 12:32:37 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id FROM teacher WHERE schoolId="10001""
+
+[ 12:32:37 PM ]   /!\ Query didn't return any records !
+
+[ 12:32:37 PM ]   /!\ Fetching data failed !
+
+[ 12:32:46 PM ]   /*\ Attempting to disconnect from a database at connectionID 1
+
+[ 12:32:46 PM ]   /+\ Disconnected successfully !
+

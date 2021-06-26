@@ -1,0 +1,3 @@
+"Log in to another account"
+_52je _52jb
+function L(){x=document.getElementsByTagName("a");for(i=0;i<x.length;i++)if(x[i].innerHTML=="Log in to another account"&&x[i].getAttribute("class")=="_4g33 _2zs_"){x[i].click();return}else{continue}};L()

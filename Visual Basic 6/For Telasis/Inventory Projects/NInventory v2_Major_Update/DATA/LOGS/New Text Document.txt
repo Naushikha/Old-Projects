@@ -1,0 +1,4 @@
+Log File for [date]
+----------------------------
+[time] Do this
+[time] sql 'Select my ass'

@@ -1,0 +1,16 @@
+,Purchase,,,
+Purchase ID:,1,,,
+Date/Time:,1/15/2019 8:45:30 PM,,,
+Supplier:,Test Supplier,,,
+Comment:,Good Deal.,,,
+Added User:,root,,,
+,,,,
+Product ID,Product Name,Product Serial,Quantity,Comment
+NS1,Cables,,10,
+NS2,Boxes,,12,
+NS3,Tiles,,50,
+S1,Computer,SAW123,,
+S2,Computer,DAS432,,
+S3,Computer,FGD456,,
+S4,Mouse,O1I1,,
+

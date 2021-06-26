@@ -1,0 +1,84 @@
+Log file for 2/10/2019
+----------------------
+
+
+[ 10:47:05 PM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 10:47:06 PM ]   /+\ Connection to database newrecova at 127.0.0.1 using user name root successful !
+
+[ 10:47:06 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM school"
+
+[ 10:47:06 PM ]   /+\ Fetching data successful, records found !
+
+[ 10:47:06 PM ]   /*\ Attempting to close recordsID 1
+
+[ 10:47:06 PM ]   /+\ Closing records success !
+
+[ 10:47:06 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM teacher"
+
+[ 10:47:06 PM ]   /+\ Fetching data successful, records found !
+
+[ 10:47:06 PM ]   /*\ Attempting to close recordsID 1
+
+[ 10:47:06 PM ]   /+\ Closing records success !
+
+[ 10:47:06 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT SUM(numStud) FROM teacher"
+
+[ 10:47:06 PM ]   /+\ Fetching data successful, records found !
+
+[ 10:47:06 PM ]   /*\ Attempting to close recordsID 1
+
+[ 10:47:06 PM ]   /+\ Closing records success !
+
+[ 10:47:06 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=1"
+
+[ 10:47:06 PM ]   /+\ Fetching data successful, records found !
+
+[ 10:47:06 PM ]   /*\ Attempting to close recordsID 1
+
+[ 10:47:06 PM ]   /+\ Closing records success !
+
+[ 10:47:06 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=2"
+
+[ 10:47:06 PM ]   /+\ Fetching data successful, records found !
+
+[ 10:47:06 PM ]   /*\ Attempting to close recordsID 1
+
+[ 10:47:06 PM ]   /+\ Closing records success !
+
+[ 10:47:06 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=3"
+
+[ 10:47:06 PM ]   /+\ Fetching data successful, records found !
+
+[ 10:47:06 PM ]   /*\ Attempting to close recordsID 1
+
+[ 10:47:06 PM ]   /+\ Closing records success !
+
+[ 10:47:06 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM teacher WHERE name IS NULL"
+
+[ 10:47:06 PM ]   /+\ Fetching data successful, records found !
+
+[ 10:47:06 PM ]   /*\ Attempting to close recordsID 1
+
+[ 10:47:06 PM ]   /+\ Closing records success !
+
+[ 10:47:06 PM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 10:47:06 PM ]   /+\ Connection to database newrecova at 127.0.0.1 using user name root successful !
+
+[ 10:47:06 PM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 10:47:06 PM ]   /+\ Connection to database newrecova at 127.0.0.1 using user name root successful !
+
+[ 10:47:21 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT name FROM school WHERE id="21121""
+
+[ 10:47:21 PM ]   /+\ Fetching data successful, records found !
+
+[ 10:47:21 PM ]   /*\ Attempting to close recordsID 1
+
+[ 10:47:21 PM ]   /+\ Closing records success !
+
+[ 10:48:40 PM ]   /*\ Attempting to disconnect from a database at connectionID 1
+
+[ 10:48:40 PM ]   /+\ Disconnected successfully !
+

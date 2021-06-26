@@ -1,0 +1,9 @@
+Date,Time,TransactionNo,Supplier/Customer,Comments,Patch Panel,Cable Management,0.5m Patch cord (Blue),2m Patch cord (Blue),Keystones,Faceplate (Single),Faceplate (Dual),UPS (650V),UPS (1KV),UPS (2KV)
+2018/4/30,9:12:27 PM,I2,YAHOO,"Credit"&CHAR(10)&,+0,+0,+23,+23,+0,+0,+0,+23,+0,+0,
+2018/5/1,9:23:23 AM,O3,HP EEEE,"GGGGGE"&CHAR(10)&,-0,-0,-7,-0,-7,-7,-0,-7,-7,-0,
+2018/5/1,1:24:30 PM,I1,ABC Corp,"Example"&CHAR(10)&,+2,+2,+2,+2,+2,+2,+2,+2,+2,+2,
+2018/5/1,1:25:07 PM,O1,NONAME,"123"&CHAR(10)&,-2,-2,-2,-2,-2,-2,-2,-2,-2,-2,
+2018/5/2,11:46:54 AM,O4,Savin,"Salli nae yako"&CHAR(10)&,-0,-0,-0,-30,-43,-0,-0,-0,-0,-47,
+2018/5/2,11:52:00 AM,I3,Naushikha,"On Credit"&CHAR(10)&"Given"&CHAR(10)&"Yada yada"&CHAR(10)&,+0,+0,+0,+15,+50,+10,+0,+0,+17,+50,
+2018/5/2,9:11:40 AM,O2,123,"FALALALLA"&CHAR(10)&,-0,-0,-0,-2,-0,-3,-0,-3,-0,-3,
+2018/5/2,12:01:54 PM,O5,Telasis,"TEST 123"&CHAR(10)&"TEST 234"&CHAR(10)&,-0,-0,-16,-0,-0,-0,-0,-13,-10,-0,

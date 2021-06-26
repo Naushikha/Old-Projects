@@ -1,0 +1,34 @@
+-----Current_date-----
+2018/5/1,9:23:23 AM
+-----Inventory_before_sale-----
+Patch Panel,50
+Cable Management,50
+0.5m Patch cord (Blue),73
+2m Patch cord (Blue),65
+Keystones,50
+Faceplate (Single),47
+Faceplate (Dual),50
+UPS (650V),70
+UPS (1KV),50
+UPS (2KV),47
+-----Customer-----
+HP EEEE
+-----Products_sold-----
+Faceplate (Single),7
+0.5m Patch cord (Blue),7
+UPS (650V),7
+Keystones,7
+UPS (1KV),7
+-----Comments-----
+GGGGGE
+-----Inventory_after_sale-----
+Patch Panel,50
+Cable Management,50
+0.5m Patch cord (Blue),66
+2m Patch cord (Blue),65
+Keystones,43
+Faceplate (Single),40
+Faceplate (Dual),50
+UPS (650V),63
+UPS (1KV),43
+UPS (2KV),47

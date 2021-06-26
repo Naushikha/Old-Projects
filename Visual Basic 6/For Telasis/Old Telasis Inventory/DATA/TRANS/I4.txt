@@ -1,0 +1,30 @@
+-----Current_date-----
+2018/5/11,3:05:52 PM
+-----Inventory_before_purchase-----
+Patch Panel,47
+Cable Management,50
+0.5m Patch cord (Blue),50
+2m Patch cord (Blue),50
+Keystones,50
+Faceplate (Single),50
+Faceplate (Dual),50
+UPS (650V),50
+UPS (1KV),50
+UPS (2KV),50
+-----Supplier-----
+STOCK CLEARANCE
+-----Products_purchased-----
+Patch Panel,3
+-----Comments-----
+No comment.
+-----Inventory_after_purchase-----
+Patch Panel,50
+Cable Management,50
+0.5m Patch cord (Blue),50
+2m Patch cord (Blue),50
+Keystones,50
+Faceplate (Single),50
+Faceplate (Dual),50
+UPS (650V),50
+UPS (1KV),50
+UPS (2KV),50

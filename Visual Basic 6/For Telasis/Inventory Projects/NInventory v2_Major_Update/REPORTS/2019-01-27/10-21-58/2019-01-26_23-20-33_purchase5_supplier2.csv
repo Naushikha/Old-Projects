@@ -1,0 +1,13 @@
+,Purchase,,,
+Purchase ID:,5,,,
+Date/Time:,1/26/2019 11:20:33 PM,,,
+Supplier:,Test Supplier 2,,,
+Comment:,No comment.,,,
+Added User:,root,,,
+,,,,
+Product ID,Product Name,Product Serial,Quantity,Comment
+NS3,Tiles,,123,
+NS2,Boxes,,76,
+S7,Mouse,12,,
+S8,Computer,12,,
+

@@ -1,0 +1,346 @@
+:/ $ su
+:/ # wifisp 1
+Current settings >>
+wlan0     Link encap:Ethernet  HWaddr 0c:98:38:3b:78:33  Driver wcnss_wlan
+
+Disabling WiFi...
+
+---MAC chosen is 1---
+
+Mounting system as rw...
+
+Swapping ini file...
+
+Swapping bin file...
+
+Mounting system as ro...
+
+Enabling WiFi...
+
+Done!, waiting a few seconds to get an update from adapter..
+
+Current settings >>
+wlan0     Link encap:Ethernet  HWaddr 3c:77:e6:8d:78:fb  Driver wcnss_wlan
+:/ # ifconfig
+dummy0    Link encap:Ethernet  HWaddr e2:70:b6:bc:86:29
+          inet6 addr: fe80::e070:b6ff:febc:8629/64 Scope: Link
+          UP BROADCAST RUNNING NOARP  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:42 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:0 TX bytes:2940
+
+rmnet_data0 Link encap:UNSPEC
+          inet6 addr: fe80::dd76:225d:ae64:e851/64 Scope: Link
+          UP RUNNING  MTU:2000  Metric:1
+          RX packets:203 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:202 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:17232 TX bytes:15104
+
+r_rmnet_data0 Link encap:UNSPEC
+          inet6 addr: fe80::265b:9213:f645:8422/64 Scope: Link
+          UP RUNNING  MTU:1500  Metric:1
+          RX packets:227 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:854 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:19976 TX bytes:76647
+
+rmnet_ipa0 Link encap:UNSPEC
+          UP RUNNING  MTU:2000  Metric:1
+          RX packets:74083 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:94332 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:165364297 TX bytes:12765828
+
+lo        Link encap:Local Loopback
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope: Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:31407 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:31407 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1
+          RX bytes:5757247 TX bytes:5757247
+
+wlan0     Link encap:Ethernet  HWaddr 3c:77:e6:8d:78:fb  Driver wcnss_wlan
+          inet addr:10.22.51.20  Bcast:10.22.51.255  Mask:255.255.252.0
+          inet6 addr: fe80::3e77:e6ff:fe8d:78fb/64 Scope: Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:74 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:96 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:16042 TX bytes:10971
+
+:/ # nmap -sP -n 10.22.51.0/22
+
+Starting Nmap 7.31 ( https://nmap.org ) at 2019-10-30 09:35 +0530
+Cannot find nmap-payloads. UDP payloads are disabled.
+Nmap scan report for 10.22.48.1
+Cannot find nmap-mac-prefixes: Ethernet vendor correlation will not be performed
+Host is up (0.041s latency).
+MAC Address: 00:50:56:AE:D5:7D (Unknown)
+Nmap scan report for 10.22.48.41
+Host is up (0.013s latency).
+MAC Address: DC:16:B2:FE:B3:96 (Unknown)
+Nmap scan report for 10.22.48.49
+Host is up (0.012s latency).
+MAC Address: A8:0C:63:2F:04:9C (Unknown)
+Nmap scan report for 10.22.48.110
+Host is up (0.014s latency).
+MAC Address: DC:CF:96:7D:19:1A (Unknown)
+Nmap scan report for 10.22.48.128
+Host is up (0.19s latency).
+MAC Address: FC:AA:B6:5B:CE:C5 (Unknown)
+Nmap scan report for 10.22.48.132
+Host is up (0.074s latency).
+MAC Address: 1C:42:7D:1C:17:FB (Unknown)
+Nmap scan report for 10.22.48.155
+Host is up (0.077s latency).
+MAC Address: 50:04:B8:94:11:B8 (Unknown)
+Nmap scan report for 10.22.48.164
+Host is up (0.12s latency).
+MAC Address: 04:B1:67:57:6E:50 (Unknown)
+Nmap scan report for 10.22.48.173
+Host is up (0.28s latency).
+MAC Address: A0:28:ED:79:63:D5 (Unknown)
+Nmap scan report for 10.22.48.186
+Host is up (0.053s latency).
+MAC Address: 88:10:8F:A2:B4:4D (Unknown)
+Nmap scan report for 10.22.48.195
+Host is up (0.052s latency).
+MAC Address: CC:9F:7A:46:68:3D (Unknown)
+Nmap scan report for 10.22.48.201
+Host is up (0.029s latency).
+MAC Address: 74:D2:1D:C7:14:6B (Unknown)
+Nmap scan report for 10.22.48.203
+Host is up (0.023s latency).
+MAC Address: A8:9C:ED:42:D4:61 (Unknown)
+Nmap scan report for 10.22.48.204
+Host is up (0.010s latency).
+MAC Address: B4:BF:F6:41:E9:61 (Unknown)
+Nmap scan report for 10.22.48.206
+Host is up (0.014s latency).
+MAC Address: DC:CF:96:12:A7:B4 (Unknown)
+Nmap scan report for 10.22.48.228
+Host is up (1.00s latency).
+MAC Address: 80:CE:B9:BB:FE:0F (Unknown)
+Nmap scan report for 10.22.48.239
+Host is up (0.22s latency).
+MAC Address: 88:83:22:CB:1B:E8 (Unknown)
+Nmap scan report for 10.22.48.252
+Host is up (0.10s latency).
+MAC Address: DC:44:B6:61:F1:4C (Unknown)
+Nmap scan report for 10.22.49.12
+Host is up (0.45s latency).
+MAC Address: 20:A6:0C:1C:D9:47 (Unknown)
+Nmap scan report for 10.22.49.17
+Host is up (0.076s latency).
+MAC Address: 70:8A:09:87:52:A0 (Unknown)
+Nmap scan report for 10.22.49.25
+Host is up (1.0s latency).
+MAC Address: 4C:DD:31:68:7D:A8 (Unknown)
+Nmap scan report for 10.22.49.45
+Host is up (0.074s latency).
+MAC Address: 9C:2E:A1:B2:84:31 (Unknown)
+Nmap scan report for 10.22.49.58
+Host is up (0.21s latency).
+MAC Address: A0:28:ED:79:75:AB (Unknown)
+Nmap scan report for 10.22.49.111
+Host is up (0.0100s latency).
+MAC Address: 80:CE:B9:93:A1:89 (Unknown)
+Nmap scan report for 10.22.49.114
+Host is up (0.016s latency).
+MAC Address: B8:5D:0A:C0:69:E0 (Unknown)
+Nmap scan report for 10.22.49.118
+Host is up (0.032s latency).
+MAC Address: 00:BE:3B:85:40:32 (Unknown)
+Nmap scan report for 10.22.49.121
+Host is up (0.0075s latency).
+MAC Address: 08:C5:E1:9A:05:BB (Unknown)
+Nmap scan report for 10.22.49.146
+Host is up (0.57s latency).
+MAC Address: 34:2D:0D:7A:A2:43 (Unknown)
+Nmap scan report for 10.22.49.169
+Host is up (0.010s latency).
+MAC Address: 20:39:56:5A:FE:11 (Unknown)
+Nmap scan report for 10.22.49.180
+Host is up (0.017s latency).
+MAC Address: 48:C7:96:14:03:31 (Unknown)
+Nmap scan report for 10.22.49.181
+Host is up (0.11s latency).
+MAC Address: 80:CE:B9:7D:61:57 (Unknown)
+Nmap scan report for 10.22.49.185
+Host is up (0.23s latency).
+MAC Address: 34:2D:0D:0E:F6:37 (Unknown)
+Nmap scan report for 10.22.49.188
+Host is up (0.0042s latency).
+MAC Address: 34:79:16:BE:D8:E1 (Unknown)
+Nmap scan report for 10.22.49.195
+Host is up (0.066s latency).
+MAC Address: D4:A1:48:42:32:11 (Unknown)
+Nmap scan report for 10.22.49.196
+Host is up (0.12s latency).
+MAC Address: 94:B1:0A:F7:7C:9E (Unknown)
+Nmap scan report for 10.22.49.223
+Host is up (0.52s latency).
+MAC Address: A0:57:E3:69:49:50 (Unknown)
+Nmap scan report for 10.22.50.42
+Host is up (0.065s latency).
+MAC Address: 74:EB:80:1A:0F:DE (Unknown)
+Nmap scan report for 10.22.50.44
+Host is up (0.059s latency).
+MAC Address: B4:C4:FC:63:67:FC (Unknown)
+Nmap scan report for 10.22.50.46
+Host is up (0.011s latency).
+MAC Address: 68:5A:CF:75:E7:F6 (Unknown)
+Nmap scan report for 10.22.50.47
+Host is up (0.095s latency).
+MAC Address: C0:17:4D:B7:33:7B (Unknown)
+Nmap scan report for 10.22.50.51
+Host is up (0.011s latency).
+MAC Address: 04:C2:3E:97:58:4D (Unknown)
+Nmap scan report for 10.22.50.52
+Host is up (0.12s latency).
+MAC Address: 74:C1:4F:CF:C5:62 (Unknown)
+Nmap scan report for 10.22.50.53
+Host is up (0.016s latency).
+MAC Address: 34:2E:B6:4D:60:E4 (Unknown)
+Nmap scan report for 10.22.50.57
+Host is up (1.0s latency).
+MAC Address: D8:C4:6A:0C:F1:60 (Unknown)
+Nmap scan report for 10.22.50.58
+Host is up (0.045s latency).
+MAC Address: 54:4E:90:A7:92:0A (Unknown)
+Nmap scan report for 10.22.50.60
+Host is up (0.21s latency).
+MAC Address: 0C:8F:FF:17:E9:22 (Unknown)
+Nmap scan report for 10.22.50.66
+Host is up (0.19s latency).
+MAC Address: 00:5A:13:B3:35:FE (Unknown)
+Nmap scan report for 10.22.50.68
+Host is up (0.11s latency).
+MAC Address: 74:C1:4F:E4:C4:69 (Unknown)
+Nmap scan report for 10.22.50.71
+Host is up (0.072s latency).
+MAC Address: C8:3C:85:6C:B2:4B (Unknown)
+Nmap scan report for 10.22.50.73
+Host is up (0.095s latency).
+MAC Address: B8:1D:AA:EF:DF:6C (Unknown)
+Nmap scan report for 10.22.50.77
+Host is up (0.014s latency).
+MAC Address: 70:8A:09:AE:AF:66 (Unknown)
+Nmap scan report for 10.22.50.81
+Host is up (0.32s latency).
+MAC Address: 74:EB:80:4A:44:9C (Unknown)
+Nmap scan report for 10.22.50.82
+Host is up (0.019s latency).
+MAC Address: 94:0E:6B:46:D3:5F (Unknown)
+Nmap scan report for 10.22.50.86
+Host is up (0.065s latency).
+MAC Address: C4:9F:4C:8E:BB:38 (Unknown)
+Nmap scan report for 10.22.50.97
+Host is up (0.034s latency).
+MAC Address: 88:11:96:60:74:8B (Unknown)
+Nmap scan report for 10.22.50.100
+Host is up (0.13s latency).
+MAC Address: 7C:46:85:C3:59:1A (Unknown)
+Nmap scan report for 10.22.50.104
+Host is up (0.17s latency).
+MAC Address: C4:86:E9:E2:B1:E7 (Unknown)
+Nmap scan report for 10.22.50.108
+Host is up (0.40s latency).
+MAC Address: 6C:B7:49:57:41:EC (Unknown)
+Nmap scan report for 10.22.50.113
+Host is up (0.11s latency).
+MAC Address: 5C:C3:07:B3:C6:66 (Unknown)
+Nmap scan report for 10.22.50.115
+Host is up (0.029s latency).
+MAC Address: A0:56:F3:10:F5:A4 (Unknown)
+Nmap scan report for 10.22.50.143
+Host is up (0.0076s latency).
+MAC Address: DC:F7:56:AD:EE:D4 (Unknown)
+Nmap scan report for 10.22.50.145
+Host is up (0.050s latency).
+MAC Address: D8:BB:2C:38:C3:7F (Unknown)
+Nmap scan report for 10.22.50.149
+Host is up (0.012s latency).
+MAC Address: 7C:A1:77:2D:8F:90 (Unknown)
+Nmap scan report for 10.22.50.162
+Host is up (0.11s latency).
+MAC Address: 74:EB:80:4A:3F:74 (Unknown)
+Nmap scan report for 10.22.50.174
+Host is up (0.038s latency).
+MAC Address: 80:CE:B9:95:6E:4F (Unknown)
+Nmap scan report for 10.22.50.176
+Host is up (0.21s latency).
+MAC Address: 40:40:A7:57:48:8F (Unknown)
+Nmap scan report for 10.22.50.181
+Host is up (0.11s latency).
+MAC Address: 24:FB:65:90:6D:FD (Unknown)
+Nmap scan report for 10.22.50.183
+Host is up (0.0044s latency).
+MAC Address: 70:8A:09:87:4A:7D (Unknown)
+Nmap scan report for 10.22.50.185
+Host is up (0.053s latency).
+MAC Address: 58:E6:BA:08:85:C1 (Unknown)
+Nmap scan report for 10.22.50.197
+Host is up (0.071s latency).
+MAC Address: 04:79:70:94:0B:2C (Unknown)
+Nmap scan report for 10.22.50.199
+Host is up (0.24s latency).
+MAC Address: A4:50:46:36:E1:E1 (Unknown)
+Nmap scan report for 10.22.50.217
+Host is up (0.0018s latency).
+MAC Address: C0:EE:FB:38:82:1D (Unknown)
+Nmap scan report for 10.22.50.219
+Host is up (0.091s latency).
+MAC Address: 48:C7:96:0D:58:B5 (Unknown)
+Nmap scan report for 10.22.50.229
+Host is up (0.57s latency).
+MAC Address: 64:9A:BE:4E:3C:56 (Unknown)
+Nmap scan report for 10.22.50.230
+Host is up (0.057s latency).
+MAC Address: 74:D2:1D:C7:12:1B (Unknown)
+Nmap scan report for 10.22.50.231
+Host is up (0.0036s latency).
+MAC Address: A8:87:B3:E4:06:96 (Unknown)
+Nmap scan report for 10.22.50.238
+Host is up (0.038s latency).
+MAC Address: 0C:70:4A:AC:3C:23 (Unknown)
+Nmap scan report for 10.22.50.239
+Host is up (0.029s latency).
+MAC Address: 70:8A:09:AE:B0:FE (Unknown)
+Nmap scan report for 10.22.50.244
+Host is up (0.19s latency).
+MAC Address: 8C:0D:76:C3:3A:20 (Unknown)
+Nmap scan report for 10.22.50.250
+Host is up (0.26s latency).
+MAC Address: BC:3D:85:00:45:B5 (Unknown)
+Nmap scan report for 10.22.50.252
+Host is up (1.3s latency).
+MAC Address: 5C:51:81:77:32:A3 (Unknown)
+Nmap scan report for 10.22.50.255
+Host is up (0.0041s latency).
+MAC Address: 08:F6:9C:90:02:AB (Unknown)
+Nmap scan report for 10.22.51.9
+Host is up (0.0067s latency).
+MAC Address: 48:C7:96:32:00:1D (Unknown)
+Nmap scan report for 10.22.51.10
+Host is up (0.23s latency).
+MAC Address: 54:FC:F0:15:2B:4D (Unknown)
+Nmap scan report for 10.22.51.13
+Host is up (0.0043s latency).
+MAC Address: 14:56:8E:FE:31:CD (Unknown)
+Nmap scan report for 10.22.51.14
+Host is up (0.0061s latency).
+MAC Address: 6C:C7:EC:F1:57:9C (Unknown)
+Nmap scan report for 10.22.51.16
+Host is up (0.29s latency).
+MAC Address: 94:7B:E7:98:52:8E (Unknown)
+Nmap scan report for 10.22.51.254
+Host is up (0.0028s latency).
+MAC Address: 20:4C:03:15:69:DC (Unknown)
+Nmap scan report for 10.22.51.20
+Host is up.
+Nmap done: 1024 IP addresses (89 hosts up) scanned in 30.60 seconds
+:/ #

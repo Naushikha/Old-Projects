@@ -1,0 +1,30 @@
+-----Current_date-----
+2018/5/11,3:01:26 PM
+-----Inventory_before_sale-----
+Patch Panel,50
+Cable Management,50
+0.5m Patch cord (Blue),50
+2m Patch cord (Blue),50
+Keystones,50
+Faceplate (Single),50
+Faceplate (Dual),50
+UPS (650V),50
+UPS (1KV),50
+UPS (2KV),50
+-----Customer-----
+DAMRO
+-----Products_sold-----
+Patch Panel,3
+-----Comments-----
+
+-----Inventory_after_sale-----
+Patch Panel,47
+Cable Management,50
+0.5m Patch cord (Blue),50
+2m Patch cord (Blue),50
+Keystones,50
+Faceplate (Single),50
+Faceplate (Dual),50
+UPS (650V),50
+UPS (1KV),50
+UPS (2KV),50

@@ -1,0 +1,7 @@
+transcation no,date,customer,comments, item,item.................
+I111,o12
+
+
+dictionary
+key - "date,12"
+

@@ -1,0 +1,814 @@
+Log file for 1/27/2019
+----------------------
+
+
+[ 8:40:26 AM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 8:40:26 AM ]   /+\ Connection to database inv3 at 127.0.0.1 using user name root successful !
+
+[ 8:40:27 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_category"
+
+[ 8:40:27 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:40:27 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:40:27 AM ]   /+\ Closing records success !
+
+[ 8:40:27 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM prod_name WHERE catId IS NULL"
+
+[ 8:40:27 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:40:27 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:40:27 AM ]   /+\ Closing records success !
+
+[ 8:40:27 AM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 8:40:27 AM ]   /+\ Connection to database inv3 at 127.0.0.1 using user name root successful !
+
+[ 8:40:27 AM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 8:40:27 AM ]   /+\ Connection to database inv3 at 127.0.0.1 using user name root successful !
+
+[ 8:40:29 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_name WHERE catId IS NULL"
+
+[ 8:40:29 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:40:29 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:40:29 AM ]   /+\ Closing records success !
+
+[ 8:40:29 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_category"
+
+[ 8:40:29 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:40:29 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:40:29 AM ]   /+\ Closing records success !
+
+[ 8:40:32 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_name WHERE catId='1'"
+
+[ 8:40:32 AM ]   /!\ Query didn't return any records !
+
+[ 8:40:32 AM ]   /!\ Fetching data failed !
+
+[ 8:40:33 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_name WHERE catId='2'"
+
+[ 8:40:33 AM ]   /!\ Query didn't return any records !
+
+[ 8:40:33 AM ]   /!\ Fetching data failed !
+
+[ 8:40:33 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_name WHERE catId='3'"
+
+[ 8:40:33 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:40:33 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:40:33 AM ]   /+\ Closing records success !
+
+[ 8:40:33 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_name WHERE catId='5'"
+
+[ 8:40:33 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:40:33 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:40:33 AM ]   /+\ Closing records success !
+
+[ 8:40:36 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_category"
+
+[ 8:40:36 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:40:36 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:40:36 AM ]   /+\ Closing records success !
+
+[ 8:40:36 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM prod_name WHERE catId IS NULL"
+
+[ 8:40:36 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:40:36 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:40:36 AM ]   /+\ Closing records success !
+
+[ 8:40:37 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM supplier"
+
+[ 8:40:37 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:40:37 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:40:37 AM ]   /+\ Closing records success !
+
+[ 8:40:37 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT nsproduct.Id,name,quantity FROM prod_name,nsproduct WHERE prod_name.id = nsproduct.pnId"
+
+[ 8:40:37 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:40:37 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:40:37 AM ]   /+\ Closing records success !
+
+[ 8:40:37 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT name FROM prod_name WHERE type='S'"
+
+[ 8:40:37 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:40:37 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:40:37 AM ]   /+\ Closing records success !
+
+[ 8:40:40 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_category"
+
+[ 8:40:40 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:40:40 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:40:40 AM ]   /+\ Closing records success !
+
+[ 8:40:40 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM prod_name WHERE catId IS NULL"
+
+[ 8:40:40 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:40:40 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:40:40 AM ]   /+\ Closing records success !
+
+[ 8:40:41 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM customer"
+
+[ 8:40:41 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:40:41 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:40:41 AM ]   /+\ Closing records success !
+
+[ 8:40:41 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT nsproduct.Id,name,quantity FROM prod_name,nsproduct WHERE prod_name.id = nsproduct.pnId"
+
+[ 8:40:41 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:40:41 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:40:41 AM ]   /+\ Closing records success !
+
+[ 8:40:41 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT sproduct.id,prod_name.name,serial,accessories,supplierId FROM prod_name,sproduct WHERE prod_name.id = sproduct.pnId AND sproduct.customerId IS NULL"
+
+[ 8:40:41 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:40:41 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:40:41 AM ]   /+\ Closing records success !
+
+[ 8:41:28 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_category"
+
+[ 8:41:28 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:41:28 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:41:28 AM ]   /+\ Closing records success !
+
+[ 8:41:28 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM prod_name WHERE catId IS NULL"
+
+[ 8:41:28 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:41:28 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:41:28 AM ]   /+\ Closing records success !
+
+[ 8:41:30 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM customer"
+
+[ 8:41:30 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:41:30 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:41:30 AM ]   /+\ Closing records success !
+
+[ 8:41:30 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT nsproduct.Id,name,quantity FROM prod_name,nsproduct WHERE prod_name.id = nsproduct.pnId"
+
+[ 8:41:30 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:41:30 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:41:30 AM ]   /+\ Closing records success !
+
+[ 8:41:30 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT sproduct.id,prod_name.name,serial,accessories,supplierId FROM prod_name,sproduct WHERE prod_name.id = sproduct.pnId AND sproduct.customerId IS NULL"
+
+[ 8:41:30 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:41:30 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:41:30 AM ]   /+\ Closing records success !
+
+[ 8:41:43 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_category"
+
+[ 8:41:43 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:41:43 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:41:43 AM ]   /+\ Closing records success !
+
+[ 8:41:43 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM prod_name WHERE catId IS NULL"
+
+[ 8:41:43 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:41:43 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:41:43 AM ]   /+\ Closing records success !
+
+[ 8:41:57 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,name FROM prod_name"
+
+[ 8:41:57 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:41:57 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:41:57 AM ]   /+\ Closing records success !
+
+[ 8:42:03 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_category"
+
+[ 8:42:03 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:03 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:03 AM ]   /+\ Closing records success !
+
+[ 8:42:03 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM prod_name WHERE catId IS NULL"
+
+[ 8:42:03 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:03 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:03 AM ]   /+\ Closing records success !
+
+[ 8:42:09 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM supplier"
+
+[ 8:42:09 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:09 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:09 AM ]   /+\ Closing records success !
+
+[ 8:42:09 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM customer"
+
+[ 8:42:09 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:09 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:09 AM ]   /+\ Closing records success !
+
+[ 8:42:09 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT nsproduct.Id,name,quantity FROM prod_name,nsproduct WHERE prod_name.id = nsproduct.pnId"
+
+[ 8:42:09 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:09 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:09 AM ]   /+\ Closing records success !
+
+[ 8:42:09 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT sproduct.id,prod_name.name,serial,accessories,supplierId,customerId FROM prod_name,sproduct WHERE prod_name.id = sproduct.pnId"
+
+[ 8:42:09 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:09 AM ]   /*\ Attempting to fetch data into recordsID 2 from dB using query "SELECT comment FROM purchase_sprod WHERE sProductId=1"
+
+[ 8:42:09 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:09 AM ]   /*\ Attempting to fetch data into recordsID 2 from dB using query "SELECT comment FROM purchase_sprod WHERE sProductId=2"
+
+[ 8:42:09 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:09 AM ]   /*\ Attempting to fetch data into recordsID 2 from dB using query "SELECT comment FROM purchase_sprod WHERE sProductId=3"
+
+[ 8:42:09 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:09 AM ]   /*\ Attempting to fetch data into recordsID 2 from dB using query "SELECT comment FROM purchase_sprod WHERE sProductId=4"
+
+[ 8:42:09 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:09 AM ]   /*\ Attempting to fetch data into recordsID 2 from dB using query "SELECT comment FROM purchase_sprod WHERE sProductId=5"
+
+[ 8:42:09 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:09 AM ]   /*\ Attempting to fetch data into recordsID 2 from dB using query "SELECT comment FROM purchase_sprod WHERE sProductId=6"
+
+[ 8:42:09 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:09 AM ]   /*\ Attempting to fetch data into recordsID 2 from dB using query "SELECT comment FROM purchase_sprod WHERE sProductId=7"
+
+[ 8:42:09 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:09 AM ]   /*\ Attempting to fetch data into recordsID 2 from dB using query "SELECT comment FROM purchase_sprod WHERE sProductId=8"
+
+[ 8:42:09 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:09 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:09 AM ]   /+\ Closing records success !
+
+[ 8:42:09 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM purchase"
+
+[ 8:42:09 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:09 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:09 AM ]   /+\ Closing records success !
+
+[ 8:42:09 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM sale"
+
+[ 8:42:09 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:09 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:09 AM ]   /+\ Closing records success !
+
+[ 8:42:16 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM customer"
+
+[ 8:42:16 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:16 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:16 AM ]   /+\ Closing records success !
+
+[ 8:42:16 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT nsproduct.Id,name,quantity FROM prod_name,nsproduct WHERE prod_name.id = nsproduct.pnId"
+
+[ 8:42:16 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:16 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:16 AM ]   /+\ Closing records success !
+
+[ 8:42:16 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT sproduct.id,prod_name.name,serial,accessories,supplierId FROM prod_name,sproduct WHERE prod_name.id = sproduct.pnId AND sproduct.customerId IS NULL"
+
+[ 8:42:16 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:16 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:16 AM ]   /+\ Closing records success !
+
+[ 8:42:17 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_category"
+
+[ 8:42:17 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:17 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:17 AM ]   /+\ Closing records success !
+
+[ 8:42:17 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM prod_name WHERE catId IS NULL"
+
+[ 8:42:17 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:17 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:17 AM ]   /+\ Closing records success !
+
+[ 8:42:18 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM supplier"
+
+[ 8:42:18 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:18 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:18 AM ]   /+\ Closing records success !
+
+[ 8:42:18 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT nsproduct.Id,name,quantity FROM prod_name,nsproduct WHERE prod_name.id = nsproduct.pnId"
+
+[ 8:42:18 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:18 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:18 AM ]   /+\ Closing records success !
+
+[ 8:42:18 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT name FROM prod_name WHERE type='S'"
+
+[ 8:42:18 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:18 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:18 AM ]   /+\ Closing records success !
+
+[ 8:42:22 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_category"
+
+[ 8:42:22 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:22 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:22 AM ]   /+\ Closing records success !
+
+[ 8:42:22 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM prod_name WHERE catId IS NULL"
+
+[ 8:42:22 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:22 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:22 AM ]   /+\ Closing records success !
+
+[ 8:42:28 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM supplier"
+
+[ 8:42:28 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:28 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:28 AM ]   /+\ Closing records success !
+
+[ 8:42:28 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM customer"
+
+[ 8:42:28 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:28 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:28 AM ]   /+\ Closing records success !
+
+[ 8:42:28 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT nsproduct.Id,name,quantity FROM prod_name,nsproduct WHERE prod_name.id = nsproduct.pnId"
+
+[ 8:42:28 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:28 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:28 AM ]   /+\ Closing records success !
+
+[ 8:42:28 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT sproduct.id,prod_name.name,serial,accessories,supplierId,customerId FROM prod_name,sproduct WHERE prod_name.id = sproduct.pnId"
+
+[ 8:42:28 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:28 AM ]   /*\ Attempting to fetch data into recordsID 2 from dB using query "SELECT comment FROM purchase_sprod WHERE sProductId=1"
+
+[ 8:42:28 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:28 AM ]   /*\ Attempting to fetch data into recordsID 2 from dB using query "SELECT comment FROM purchase_sprod WHERE sProductId=2"
+
+[ 8:42:28 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:28 AM ]   /*\ Attempting to fetch data into recordsID 2 from dB using query "SELECT comment FROM purchase_sprod WHERE sProductId=3"
+
+[ 8:42:28 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:28 AM ]   /*\ Attempting to fetch data into recordsID 2 from dB using query "SELECT comment FROM purchase_sprod WHERE sProductId=4"
+
+[ 8:42:28 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:28 AM ]   /*\ Attempting to fetch data into recordsID 2 from dB using query "SELECT comment FROM purchase_sprod WHERE sProductId=5"
+
+[ 8:42:28 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:28 AM ]   /*\ Attempting to fetch data into recordsID 2 from dB using query "SELECT comment FROM purchase_sprod WHERE sProductId=6"
+
+[ 8:42:28 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:28 AM ]   /*\ Attempting to fetch data into recordsID 2 from dB using query "SELECT comment FROM purchase_sprod WHERE sProductId=7"
+
+[ 8:42:28 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:28 AM ]   /*\ Attempting to fetch data into recordsID 2 from dB using query "SELECT comment FROM purchase_sprod WHERE sProductId=8"
+
+[ 8:42:28 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:28 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:28 AM ]   /+\ Closing records success !
+
+[ 8:42:28 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM purchase"
+
+[ 8:42:28 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:28 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:28 AM ]   /+\ Closing records success !
+
+[ 8:42:28 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM sale"
+
+[ 8:42:28 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:28 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:28 AM ]   /+\ Closing records success !
+
+[ 8:42:31 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM supplier"
+
+[ 8:42:31 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:31 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:31 AM ]   /+\ Closing records success !
+
+[ 8:42:31 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM customer"
+
+[ 8:42:31 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:31 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:31 AM ]   /+\ Closing records success !
+
+[ 8:42:31 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT nsproduct.Id,name,quantity FROM prod_name,nsproduct WHERE prod_name.id = nsproduct.pnId"
+
+[ 8:42:31 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:31 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:31 AM ]   /+\ Closing records success !
+
+[ 8:42:31 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT sproduct.id,prod_name.name,serial,accessories,supplierId,customerId FROM prod_name,sproduct WHERE prod_name.id = sproduct.pnId"
+
+[ 8:42:31 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:31 AM ]   /*\ Attempting to fetch data into recordsID 2 from dB using query "SELECT comment FROM purchase_sprod WHERE sProductId=1"
+
+[ 8:42:31 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:31 AM ]   /*\ Attempting to fetch data into recordsID 2 from dB using query "SELECT comment FROM purchase_sprod WHERE sProductId=2"
+
+[ 8:42:31 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:31 AM ]   /*\ Attempting to fetch data into recordsID 2 from dB using query "SELECT comment FROM purchase_sprod WHERE sProductId=3"
+
+[ 8:42:31 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:31 AM ]   /*\ Attempting to fetch data into recordsID 2 from dB using query "SELECT comment FROM purchase_sprod WHERE sProductId=4"
+
+[ 8:42:31 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:31 AM ]   /*\ Attempting to fetch data into recordsID 2 from dB using query "SELECT comment FROM purchase_sprod WHERE sProductId=5"
+
+[ 8:42:31 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:31 AM ]   /*\ Attempting to fetch data into recordsID 2 from dB using query "SELECT comment FROM purchase_sprod WHERE sProductId=6"
+
+[ 8:42:32 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:32 AM ]   /*\ Attempting to fetch data into recordsID 2 from dB using query "SELECT comment FROM purchase_sprod WHERE sProductId=7"
+
+[ 8:42:32 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:32 AM ]   /*\ Attempting to fetch data into recordsID 2 from dB using query "SELECT comment FROM purchase_sprod WHERE sProductId=8"
+
+[ 8:42:32 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:32 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:32 AM ]   /+\ Closing records success !
+
+[ 8:42:32 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM purchase"
+
+[ 8:42:32 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:32 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:32 AM ]   /+\ Closing records success !
+
+[ 8:42:32 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM sale"
+
+[ 8:42:32 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:32 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:32 AM ]   /+\ Closing records success !
+
+[ 8:42:45 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_name WHERE catId IS NULL"
+
+[ 8:42:45 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:45 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:45 AM ]   /+\ Closing records success !
+
+[ 8:42:45 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_category"
+
+[ 8:42:45 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:45 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:45 AM ]   /+\ Closing records success !
+
+[ 8:42:46 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_category"
+
+[ 8:42:46 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:46 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:46 AM ]   /+\ Closing records success !
+
+[ 8:42:46 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM prod_name WHERE catId IS NULL"
+
+[ 8:42:46 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:46 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:46 AM ]   /+\ Closing records success !
+
+[ 8:42:47 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_name WHERE catId IS NULL"
+
+[ 8:42:47 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:47 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:47 AM ]   /+\ Closing records success !
+
+[ 8:42:47 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_category"
+
+[ 8:42:47 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:47 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:47 AM ]   /+\ Closing records success !
+
+[ 8:42:50 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_name WHERE catId='2'"
+
+[ 8:42:50 AM ]   /!\ Query didn't return any records !
+
+[ 8:42:50 AM ]   /!\ Fetching data failed !
+
+[ 8:42:52 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_name WHERE catId='3'"
+
+[ 8:42:52 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:52 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:52 AM ]   /+\ Closing records success !
+
+[ 8:42:53 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_name WHERE catId='4'"
+
+[ 8:42:53 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:53 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:53 AM ]   /+\ Closing records success !
+
+[ 8:42:54 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_name WHERE catId='1'"
+
+[ 8:42:54 AM ]   /!\ Query didn't return any records !
+
+[ 8:42:54 AM ]   /!\ Fetching data failed !
+
+[ 8:42:55 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_name WHERE catId='3'"
+
+[ 8:42:55 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:42:55 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:42:55 AM ]   /+\ Closing records success !
+
+[ 8:43:07 AM ]   /*\ Attempting to send data to dB using query "UPDATE prod_name SET catId=5 WHERE id=1"
+
+[ 8:43:07 AM ]   /+\ Data sent successfully !
+
+[ 8:43:07 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_name WHERE catId IS NULL"
+
+[ 8:43:07 AM ]   /!\ Query didn't return any records !
+
+[ 8:43:07 AM ]   /!\ Fetching data failed !
+
+[ 8:43:07 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_category"
+
+[ 8:43:07 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:43:07 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:43:07 AM ]   /+\ Closing records success !
+
+[ 8:43:10 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_name WHERE catId='1'"
+
+[ 8:43:10 AM ]   /!\ Query didn't return any records !
+
+[ 8:43:10 AM ]   /!\ Fetching data failed !
+
+[ 8:43:10 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_name WHERE catId='2'"
+
+[ 8:43:10 AM ]   /!\ Query didn't return any records !
+
+[ 8:43:10 AM ]   /!\ Fetching data failed !
+
+[ 8:43:10 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_name WHERE catId='3'"
+
+[ 8:43:10 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:43:10 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:43:10 AM ]   /+\ Closing records success !
+
+[ 8:43:11 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_category"
+
+[ 8:43:11 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:43:11 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:43:11 AM ]   /+\ Closing records success !
+
+[ 8:43:11 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM prod_name WHERE catId IS NULL"
+
+[ 8:43:11 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:43:11 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:43:11 AM ]   /+\ Closing records success !
+
+[ 8:43:16 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,name FROM prod_name"
+
+[ 8:43:16 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:43:16 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:43:16 AM ]   /+\ Closing records success !
+
+[ 8:43:36 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_category"
+
+[ 8:43:36 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:43:36 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:43:36 AM ]   /+\ Closing records success !
+
+[ 8:43:36 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM prod_name WHERE catId IS NULL"
+
+[ 8:43:36 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:43:36 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:43:36 AM ]   /+\ Closing records success !
+
+[ 8:43:36 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT type,name FROM prod_name WHERE id=1"
+
+[ 8:43:36 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:43:36 AM ]   /*\ Attempting to fetch data into recordsID 2 from dB using query "SELECT quantity FROM nsproduct WHERE pnId=1"
+
+[ 8:43:36 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:43:36 AM ]   /*\ Attempting to close recordsID 2
+
+[ 8:43:36 AM ]   /+\ Closing records success !
+
+[ 8:43:36 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:43:36 AM ]   /+\ Closing records success !
+
+[ 8:43:36 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT type,name FROM prod_name WHERE id=5"
+
+[ 8:43:36 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:43:36 AM ]   /*\ Attempting to fetch data into recordsID 2 from dB using query "SELECT COUNT(id) FROM sproduct WHERE pnId=5 AND customerId IS NULL"
+
+[ 8:43:36 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:43:36 AM ]   /*\ Attempting to close recordsID 2
+
+[ 8:43:36 AM ]   /+\ Closing records success !
+
+[ 8:43:36 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:43:36 AM ]   /+\ Closing records success !
+
+[ 8:43:36 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT type,name FROM prod_name WHERE id=4"
+
+[ 8:43:36 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:43:36 AM ]   /*\ Attempting to fetch data into recordsID 2 from dB using query "SELECT quantity FROM nsproduct WHERE pnId=4"
+
+[ 8:43:36 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:43:36 AM ]   /*\ Attempting to close recordsID 2
+
+[ 8:43:36 AM ]   /+\ Closing records success !
+
+[ 8:43:36 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:43:36 AM ]   /+\ Closing records success !
+
+[ 8:43:56 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT name FROM prod_name WHERE id=1"
+
+[ 8:43:56 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:43:56 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:43:56 AM ]   /+\ Closing records success !
+
+[ 8:43:56 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT name FROM prod_name WHERE id=5"
+
+[ 8:43:56 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:43:56 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:43:56 AM ]   /+\ Closing records success !
+
+[ 8:43:56 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT name FROM prod_name WHERE id=4"
+
+[ 8:43:56 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:43:56 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:43:56 AM ]   /+\ Closing records success !
+
+[ 8:43:56 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,name FROM prod_name"
+
+[ 8:43:56 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:43:56 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:43:56 AM ]   /+\ Closing records success !
+
+[ 8:44:01 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_category"
+
+[ 8:44:01 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:44:01 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:44:01 AM ]   /+\ Closing records success !
+
+[ 8:44:01 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM prod_name WHERE catId IS NULL"
+
+[ 8:44:01 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:44:01 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:44:01 AM ]   /+\ Closing records success !
+

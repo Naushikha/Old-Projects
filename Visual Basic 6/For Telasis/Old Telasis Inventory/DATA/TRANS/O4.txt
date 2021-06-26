@@ -1,0 +1,32 @@
+-----Current_date-----
+2018/5/2,11:46:54 AM
+-----Inventory_before_sale-----
+Patch Panel,50
+Cable Management,50
+0.5m Patch cord (Blue),66
+2m Patch cord (Blue),65
+Keystones,43
+Faceplate (Single),40
+Faceplate (Dual),50
+UPS (650V),63
+UPS (1KV),43
+UPS (2KV),47
+-----Customer-----
+Savin
+-----Products_sold-----
+2m Patch cord (Blue),30
+Keystones,43
+UPS (2KV),47
+-----Comments-----
+Salli nae yako
+-----Inventory_after_sale-----
+Patch Panel,50
+Cable Management,50
+0.5m Patch cord (Blue),66
+2m Patch cord (Blue),35
+Keystones,0
+Faceplate (Single),40
+Faceplate (Dual),50
+UPS (650V),63
+UPS (1KV),43
+UPS (2KV),0

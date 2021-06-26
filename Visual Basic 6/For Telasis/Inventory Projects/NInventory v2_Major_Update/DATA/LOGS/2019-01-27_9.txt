@@ -1,0 +1,104 @@
+Log file for 1/27/2019
+----------------------
+
+
+[ 8:46:16 AM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 8:46:16 AM ]   /+\ Connection to database inv3 at 127.0.0.1 using user name root successful !
+
+[ 8:46:16 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_category"
+
+[ 8:46:16 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:46:16 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:46:16 AM ]   /+\ Closing records success !
+
+[ 8:46:16 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM prod_name WHERE catId IS NULL"
+
+[ 8:46:16 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:46:16 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:46:16 AM ]   /+\ Closing records success !
+
+[ 8:46:16 AM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 8:46:16 AM ]   /+\ Connection to database inv3 at 127.0.0.1 using user name root successful !
+
+[ 8:46:16 AM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 8:46:16 AM ]   /+\ Connection to database inv3 at 127.0.0.1 using user name root successful !
+
+[ 8:46:20 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_name WHERE catId IS NULL"
+
+[ 8:46:20 AM ]   /!\ Query didn't return any records !
+
+[ 8:46:20 AM ]   /!\ Fetching data failed !
+
+[ 8:46:20 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_category"
+
+[ 8:46:20 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:46:20 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:46:20 AM ]   /+\ Closing records success !
+
+[ 8:46:22 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_category"
+
+[ 8:46:22 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:46:22 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:46:22 AM ]   /+\ Closing records success !
+
+[ 8:46:22 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM prod_name WHERE catId IS NULL"
+
+[ 8:46:22 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:46:22 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:46:22 AM ]   /+\ Closing records success !
+
+[ 8:46:23 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,name FROM supplier"
+
+[ 8:46:23 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:46:23 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:46:23 AM ]   /+\ Closing records success !
+
+[ 8:46:23 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,name FROM customer"
+
+[ 8:46:23 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:46:23 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:46:23 AM ]   /+\ Closing records success !
+
+[ 8:46:36 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT sale.id,dateTime,customer.name,comment,sale.user,customer.id FROM sale,customer WHERE ( dateTime BETWEEN '2019-1-1 08:46:23' AND '2019-1-27 08:46:23' ) AND customer.id = sale.customerId AND customer.id=2"
+
+[ 8:46:36 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:46:36 AM ]   /*\ Attempting to fetch data into recordsID 2 from dB using query "SELECT nsProductId,name,sale_nsprod.quantity,comment FROM sale_nsprod,nsproduct,prod_name WHERE nsProductId=nsproduct.id AND nsproduct.pnId=prod_name.id AND saleId=1"
+
+[ 8:46:36 AM ]   /+\ Fetching data successful, records found !
+
+[ 8:46:36 AM ]   /*\ Attempting to close recordsID 2
+
+[ 8:46:36 AM ]   /+\ Closing records success !
+
+[ 8:46:36 AM ]   /*\ Attempting to fetch data into recordsID 2 from dB using query "SELECT sProductId,name,serial,comment FROM sale_sprod,sproduct,prod_name WHERE sProductId=sproduct.id AND sproduct.pnId=prod_name.id AND saleId=1"
+
+[ 8:46:36 AM ]   /!\ Query didn't return any records !
+
+[ 8:46:36 AM ]   /!\ Fetching data failed !
+
+[ 8:46:36 AM ]   /*\ Attempting to close recordsID 1
+
+[ 8:46:36 AM ]   /+\ Closing records success !
+
+[ 8:51:58 AM ]   /*\ Attempting to disconnect from a database at connectionID 1
+
+[ 8:51:58 AM ]   /+\ Disconnected successfully !
+

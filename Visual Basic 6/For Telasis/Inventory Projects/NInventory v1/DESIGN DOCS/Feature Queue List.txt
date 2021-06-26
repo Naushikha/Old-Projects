@@ -1,0 +1,7 @@
+
+Version 2-
+
+1. Modify after a product has been added to the cart/ view it's entry details
+2. Better SProduct Dashboard - with seperate categories, total product num    
+3.Better cart view, totals
+4.Add to cart using serial list                                                                                                                             

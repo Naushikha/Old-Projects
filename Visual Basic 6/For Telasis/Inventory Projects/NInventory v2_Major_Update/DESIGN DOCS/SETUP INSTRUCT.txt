@@ -1,0 +1,25 @@
+Telasis Inventory v1.0
+-----------------------------
+Make sure you have run this setup as an admin.
+If not, close the setup and run again with administrative priviledges.
+
+Warning : Running this will delete your saved login details.
+
+
+;The comment below contains SFX script commands
+
+Path=C:\
+Setup=C:\INVENTORY\INSTALL\INSTALL_ACTIVEX.bat
+Setup=C:\INVENTORY\INSTALL\mysql-connector-odbc-3.51.30-winx64.msi
+Overwrite=1
+Title=Telasis Inventory v1.0 Setup
+Text
+{
+Telasis Inventory v1.0
+-----------------------------
+Make sure you have run this setup as an admin.
+If not, close the setup and run again with administrative priviledges.
+
+Warning : Running this will delete your saved login details.
+}
+Shortcut=D, C:\INVENTORY\Inventory.exe, , "Buy/Sell stuff !", "Telasis Inventory", C:\INVENTORY\Inventory.exe

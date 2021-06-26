@@ -1,0 +1,36 @@
+-----Current_date-----
+2018/5/2,11:52:00 AM
+-----Inventory_before_purchase-----
+Patch Panel,50
+Cable Management,50
+0.5m Patch cord (Blue),66
+2m Patch cord (Blue),35
+Keystones,0
+Faceplate (Single),40
+Faceplate (Dual),50
+UPS (650V),63
+UPS (1KV),43
+UPS (2KV),0
+-----Supplier-----
+Naushikha
+-----Products_purchased-----
+Keystones,50
+2m Patch cord (Blue),15
+Faceplate (Single),10
+UPS (2KV),50
+UPS (1KV),17
+-----Comments-----
+On Credit
+Given
+Yada yada
+-----Inventory_after_purchase-----
+Patch Panel,50
+Cable Management,50
+0.5m Patch cord (Blue),66
+2m Patch cord (Blue),50
+Keystones,50
+Faceplate (Single),50
+Faceplate (Dual),50
+UPS (650V),63
+UPS (1KV),60
+UPS (2KV),50

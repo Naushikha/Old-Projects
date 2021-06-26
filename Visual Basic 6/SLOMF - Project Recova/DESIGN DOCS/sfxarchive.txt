@@ -1,0 +1,22 @@
+D, \SLMCDB\SLMCDB.exe,, "Launch SLMC-DB!", SLMC-DB, \SLMCDB\DATA\ICON\logo.ico
+
+\SLMCDB\INSTALL\INSTALL_ACTIVEX.bat
+\SLMCDB\INSTALL\mysql-connector-odbc-3.51.30-winx64.msi
+
+C:\
+
+SLMC-DB Setup
+
+This will install SLMC-DB in your computer.
+
+
+
+
+
+:)
+
+
+
+
+
+(C) 2019 - Naushikha

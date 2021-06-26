@@ -1,0 +1,11 @@
+,Purchase,,,
+Purchase ID:,3,,,
+Date/Time:,1/19/2019 7:36:50 PM,,,
+Supplier:,Test Supplier,,,
+Comment:,Test man !,,,
+Added User:,root,,,
+,,,,
+Product ID,Product Name,Product Serial,Quantity,Comment
+NS1,Cables,,200,
+NS2,Boxes,,100,
+

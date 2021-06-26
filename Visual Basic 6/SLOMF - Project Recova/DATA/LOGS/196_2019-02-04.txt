@@ -1,0 +1,284 @@
+Log file for 2/4/2019
+----------------------
+
+
+[ 11:03:17 AM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 11:03:17 AM ]   /+\ Connection to database recovatestdb at 127.0.0.1 using user name root successful !
+
+[ 11:03:17 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM school"
+
+[ 11:03:17 AM ]   /+\ Fetching data successful, records found !
+
+[ 11:03:17 AM ]   /*\ Attempting to close recordsID 1
+
+[ 11:03:17 AM ]   /+\ Closing records success !
+
+[ 11:03:17 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM teacher"
+
+[ 11:03:17 AM ]   /+\ Fetching data successful, records found !
+
+[ 11:03:17 AM ]   /*\ Attempting to close recordsID 1
+
+[ 11:03:17 AM ]   /+\ Closing records success !
+
+[ 11:03:17 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT SUM(numStud) FROM teacher"
+
+[ 11:03:17 AM ]   /+\ Fetching data successful, records found !
+
+[ 11:03:17 AM ]   /*\ Attempting to close recordsID 1
+
+[ 11:03:17 AM ]   /+\ Closing records success !
+
+[ 11:03:17 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=1"
+
+[ 11:03:17 AM ]   /+\ Fetching data successful, records found !
+
+[ 11:03:17 AM ]   /*\ Attempting to close recordsID 1
+
+[ 11:03:17 AM ]   /+\ Closing records success !
+
+[ 11:03:17 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=2"
+
+[ 11:03:17 AM ]   /+\ Fetching data successful, records found !
+
+[ 11:03:17 AM ]   /*\ Attempting to close recordsID 1
+
+[ 11:03:17 AM ]   /+\ Closing records success !
+
+[ 11:03:17 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=3"
+
+[ 11:03:17 AM ]   /+\ Fetching data successful, records found !
+
+[ 11:03:17 AM ]   /*\ Attempting to close recordsID 1
+
+[ 11:03:17 AM ]   /+\ Closing records success !
+
+[ 11:03:17 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM teacher WHERE name IS NULL"
+
+[ 11:03:17 AM ]   /+\ Fetching data successful, records found !
+
+[ 11:03:17 AM ]   /*\ Attempting to close recordsID 1
+
+[ 11:03:17 AM ]   /+\ Closing records success !
+
+[ 11:03:17 AM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 11:03:17 AM ]   /+\ Connection to database recovatestdb at 127.0.0.1 using user name root successful !
+
+[ 11:03:17 AM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 11:03:17 AM ]   /+\ Connection to database recovatestdb at 127.0.0.1 using user name root successful !
+
+[ 11:03:49 AM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 11:03:49 AM ]   /!\ Connection to database recovatestdb at 127.0.0.1 using user name: Operator1 unsuccessful !
+
+[ 11:03:54 AM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 11:03:54 AM ]   /!\ Connection to database recovatestdb at 127.0.0.1 using user name: operator1 unsuccessful !
+
+[ 11:03:59 AM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 11:03:59 AM ]   /!\ Connection to database recovatestdb at 127.0.0.1 using user name: operator1 unsuccessful !
+
+[ 11:04:03 AM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 11:04:03 AM ]   /!\ Connection to database recovatestdb at 127.0.0.1 using user name: Operator1 unsuccessful !
+
+[ 11:05:49 AM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 11:05:49 AM ]   /+\ Connection to database recovatestdb at 127.0.0.1 using user name adm successful !
+
+[ 11:05:49 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM school"
+
+[ 11:05:49 AM ]   /+\ Fetching data successful, records found !
+
+[ 11:05:49 AM ]   /*\ Attempting to close recordsID 1
+
+[ 11:05:49 AM ]   /+\ Closing records success !
+
+[ 11:05:49 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM teacher"
+
+[ 11:05:49 AM ]   /+\ Fetching data successful, records found !
+
+[ 11:05:49 AM ]   /*\ Attempting to close recordsID 1
+
+[ 11:05:49 AM ]   /+\ Closing records success !
+
+[ 11:05:49 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT SUM(numStud) FROM teacher"
+
+[ 11:05:49 AM ]   /+\ Fetching data successful, records found !
+
+[ 11:05:49 AM ]   /*\ Attempting to close recordsID 1
+
+[ 11:05:49 AM ]   /+\ Closing records success !
+
+[ 11:05:49 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=1"
+
+[ 11:05:49 AM ]   /+\ Fetching data successful, records found !
+
+[ 11:05:49 AM ]   /*\ Attempting to close recordsID 1
+
+[ 11:05:49 AM ]   /+\ Closing records success !
+
+[ 11:05:49 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=2"
+
+[ 11:05:49 AM ]   /+\ Fetching data successful, records found !
+
+[ 11:05:49 AM ]   /*\ Attempting to close recordsID 1
+
+[ 11:05:49 AM ]   /+\ Closing records success !
+
+[ 11:05:49 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=3"
+
+[ 11:05:49 AM ]   /+\ Fetching data successful, records found !
+
+[ 11:05:49 AM ]   /*\ Attempting to close recordsID 1
+
+[ 11:05:49 AM ]   /+\ Closing records success !
+
+[ 11:05:49 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM teacher WHERE name IS NULL"
+
+[ 11:05:49 AM ]   /+\ Fetching data successful, records found !
+
+[ 11:05:49 AM ]   /*\ Attempting to close recordsID 1
+
+[ 11:05:49 AM ]   /+\ Closing records success !
+
+[ 11:06:00 AM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 11:06:00 AM ]   /+\ Connection to database recovatestdb at 127.0.0.1 using user name adm successful !
+
+[ 11:06:00 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM school"
+
+[ 11:06:00 AM ]   /+\ Fetching data successful, records found !
+
+[ 11:06:00 AM ]   /*\ Attempting to close recordsID 1
+
+[ 11:06:00 AM ]   /+\ Closing records success !
+
+[ 11:06:00 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM teacher"
+
+[ 11:06:00 AM ]   /+\ Fetching data successful, records found !
+
+[ 11:06:00 AM ]   /*\ Attempting to close recordsID 1
+
+[ 11:06:00 AM ]   /+\ Closing records success !
+
+[ 11:06:00 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT SUM(numStud) FROM teacher"
+
+[ 11:06:00 AM ]   /+\ Fetching data successful, records found !
+
+[ 11:06:00 AM ]   /*\ Attempting to close recordsID 1
+
+[ 11:06:00 AM ]   /+\ Closing records success !
+
+[ 11:06:00 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=1"
+
+[ 11:06:00 AM ]   /+\ Fetching data successful, records found !
+
+[ 11:06:00 AM ]   /*\ Attempting to close recordsID 1
+
+[ 11:06:00 AM ]   /+\ Closing records success !
+
+[ 11:06:00 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=2"
+
+[ 11:06:00 AM ]   /+\ Fetching data successful, records found !
+
+[ 11:06:00 AM ]   /*\ Attempting to close recordsID 1
+
+[ 11:06:00 AM ]   /+\ Closing records success !
+
+[ 11:06:00 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=3"
+
+[ 11:06:00 AM ]   /+\ Fetching data successful, records found !
+
+[ 11:06:00 AM ]   /*\ Attempting to close recordsID 1
+
+[ 11:06:00 AM ]   /+\ Closing records success !
+
+[ 11:06:00 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM teacher WHERE name IS NULL"
+
+[ 11:06:00 AM ]   /+\ Fetching data successful, records found !
+
+[ 11:06:00 AM ]   /*\ Attempting to close recordsID 1
+
+[ 11:06:00 AM ]   /+\ Closing records success !
+
+[ 11:06:09 AM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 11:06:09 AM ]   /+\ Connection to database recovatestdb at 127.0.0.1 using user name adm successful !
+
+[ 11:06:09 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM school"
+
+[ 11:06:09 AM ]   /+\ Fetching data successful, records found !
+
+[ 11:06:09 AM ]   /*\ Attempting to close recordsID 1
+
+[ 11:06:09 AM ]   /+\ Closing records success !
+
+[ 11:06:09 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM teacher"
+
+[ 11:06:09 AM ]   /+\ Fetching data successful, records found !
+
+[ 11:06:09 AM ]   /*\ Attempting to close recordsID 1
+
+[ 11:06:09 AM ]   /+\ Closing records success !
+
+[ 11:06:09 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT SUM(numStud) FROM teacher"
+
+[ 11:06:09 AM ]   /+\ Fetching data successful, records found !
+
+[ 11:06:09 AM ]   /*\ Attempting to close recordsID 1
+
+[ 11:06:09 AM ]   /+\ Closing records success !
+
+[ 11:06:09 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=1"
+
+[ 11:06:09 AM ]   /+\ Fetching data successful, records found !
+
+[ 11:06:09 AM ]   /*\ Attempting to close recordsID 1
+
+[ 11:06:09 AM ]   /+\ Closing records success !
+
+[ 11:06:09 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=2"
+
+[ 11:06:09 AM ]   /+\ Fetching data successful, records found !
+
+[ 11:06:09 AM ]   /*\ Attempting to close recordsID 1
+
+[ 11:06:09 AM ]   /+\ Closing records success !
+
+[ 11:06:09 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=3"
+
+[ 11:06:09 AM ]   /+\ Fetching data successful, records found !
+
+[ 11:06:09 AM ]   /*\ Attempting to close recordsID 1
+
+[ 11:06:09 AM ]   /+\ Closing records success !
+
+[ 11:06:09 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM teacher WHERE name IS NULL"
+
+[ 11:06:09 AM ]   /+\ Fetching data successful, records found !
+
+[ 11:06:09 AM ]   /*\ Attempting to close recordsID 1
+
+[ 11:06:09 AM ]   /+\ Closing records success !
+
+[ 11:06:24 AM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 11:06:24 AM ]   /!\ Connection to database recovatestdb at 127.0.0.1 using user name: Operator1 unsuccessful !
+
+[ 11:07:20 AM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 11:07:20 AM ]   /!\ Connection to database recovatestdb at 127.0.0.1 using user name: Operator1 unsuccessful !
+
+[ 11:07:26 AM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 11:07:26 AM ]   /!\ Connection to database recovatestdb at 127.0.0.1 using user name: Operator1 unsuccessful !
+
+[ 11:08:37 AM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 11:08:37 AM ]   /!\ Connection to database recovatestdb at 127.0.0.1 using user name: Ope1 unsuccessful !
+

@@ -1,0 +1,403 @@
+naush@naush-lap:~$ nmap 192.248.22.0-255
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2019-10-26 14:53 +0530
+Nmap scan report for 192.248.22.51
+Host is up (0.039s latency).
+Not shown: 995 filtered ports
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+25/tcp   open   smtp
+80/tcp   open   http
+443/tcp  closed https
+5666/tcp open   nrpe
+
+Nmap scan report for 192.248.22.53
+Host is up (0.041s latency).
+Not shown: 987 closed ports
+PORT      STATE    SERVICE
+22/tcp    open     ssh
+25/tcp    open     smtp
+80/tcp    open     http
+111/tcp   open     rpcbind
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+443/tcp   open     https
+445/tcp   filtered microsoft-ds
+1001/tcp  filtered webpush
+1244/tcp  filtered isbconference1
+5666/tcp  open     nrpe
+5999/tcp  filtered ncd-conf
+19315/tcp filtered keyshadow
+
+Nmap scan report for 192.248.22.54
+Host is up (0.043s latency).
+Not shown: 996 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+25/tcp  open  smtp
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for 192.248.22.55
+Host is up (0.036s latency).
+Not shown: 995 filtered ports
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+25/tcp   open   smtp
+80/tcp   open   http
+443/tcp  closed https
+5666/tcp open   nrpe
+
+Nmap scan report for 192.248.22.57
+Host is up (0.032s latency).
+Not shown: 993 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+25/tcp   open  smtp
+80/tcp   open  http
+443/tcp  open  https
+1935/tcp open  rtmp
+5000/tcp open  upnp
+7443/tcp open  oracleas-https
+
+Nmap scan report for 192.248.22.65
+Host is up (0.045s latency).
+Not shown: 996 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+25/tcp  open  smtp
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for 192.248.22.67
+Host is up (0.037s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+25/tcp  open  smtp
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for 192.248.22.68
+Host is up (0.050s latency).
+Not shown: 995 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+25/tcp   open  smtp
+80/tcp   open  http
+443/tcp  open  https
+5666/tcp open  nrpe
+
+Nmap scan report for fit.ucsc.cmb.ac.lk (192.248.22.69)
+Host is up (0.040s latency).
+Not shown: 994 closed ports
+PORT    STATE    SERVICE
+25/tcp  open     smtp
+80/tcp  open     http
+135/tcp filtered msrpc
+139/tcp filtered netbios-ssn
+443/tcp open     https
+445/tcp filtered microsoft-ds
+
+Nmap scan report for pgvle.ucsc.cmb.ac.lk (192.248.22.71)
+Host is up (0.035s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+25/tcp  open  smtp
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for 192.248.22.86
+Host is up (0.035s latency).
+Not shown: 996 filtered ports
+PORT     STATE  SERVICE
+25/tcp   open   smtp
+80/tcp   open   http
+443/tcp  closed https
+3306/tcp open   mysql
+
+Nmap scan report for mail.ucsc.lk (192.248.22.98)
+Host is up (0.039s latency).
+Not shown: 995 filtered ports
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+25/tcp  open   smtp
+53/tcp  closed domain
+80/tcp  open   http
+443/tcp open   https
+
+Nmap scan report for aduna.cmb.ac.lk (192.248.22.99)
+Host is up (0.040s latency).
+Not shown: 988 closed ports
+PORT      STATE    SERVICE
+22/tcp    open     ssh
+25/tcp    open     smtp
+53/tcp    open     domain
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+445/tcp   filtered microsoft-ds
+1029/tcp  filtered ms-lsa
+5666/tcp  open     nrpe
+8086/tcp  filtered d-s-n
+11111/tcp filtered vce
+19780/tcp filtered unknown
+49152/tcp filtered unknown
+
+Nmap scan report for shilpa.ucsc.lk (192.248.22.101)
+Host is up (0.039s latency).
+Not shown: 994 closed ports
+PORT     STATE    SERVICE
+22/tcp   open     ssh
+25/tcp   open     smtp
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+5666/tcp open     nrpe
+
+Nmap scan report for 192.248.22.102
+Host is up (0.035s latency).
+Not shown: 990 closed ports
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+25/tcp   open     smtp
+53/tcp   open     domain
+80/tcp   open     http
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+443/tcp  open     https
+445/tcp  filtered microsoft-ds
+8443/tcp open     https-alt
+9503/tcp filtered unknown
+
+Nmap scan report for 192.248.22.105
+Host is up (0.036s latency).
+Not shown: 994 closed ports
+PORT     STATE    SERVICE
+22/tcp   open     ssh
+25/tcp   open     smtp
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+3011/tcp filtered trusted-web
+
+Nmap scan report for 192.248.22.106
+Host is up (0.041s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+25/tcp   open  smtp
+80/tcp   open  http
+5666/tcp open  nrpe
+
+Nmap scan report for sewum.ucsc.cmb.ac.lk (192.248.22.110)
+Host is up (0.038s latency).
+Not shown: 995 filtered ports
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+25/tcp  open   smtp
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+
+Nmap scan report for 192.248.22.121
+Host is up (0.033s latency).
+Not shown: 987 closed ports
+PORT      STATE    SERVICE
+25/tcp    open     smtp
+80/tcp    open     http
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+445/tcp   filtered microsoft-ds
+3306/tcp  open     mysql
+3389/tcp  open     ms-wbt-server
+49152/tcp open     unknown
+49153/tcp open     unknown
+49154/tcp open     unknown
+49155/tcp open     unknown
+49156/tcp open     unknown
+49157/tcp open     unknown
+
+Nmap scan report for 192.248.22.122
+Host is up (0.044s latency).
+Not shown: 994 filtered ports
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+25/tcp   open   smtp
+80/tcp   open   http
+3306/tcp open   mysql
+5432/tcp open   postgresql
+8080/tcp closed http-proxy
+
+Nmap scan report for 192.248.22.123
+Host is up (0.041s latency).
+Not shown: 997 filtered ports
+PORT   STATE  SERVICE
+22/tcp closed ssh
+25/tcp open   smtp
+80/tcp open   http
+
+Nmap scan report for 192.248.22.124
+Host is up (0.042s latency).
+Not shown: 991 closed ports
+PORT     STATE    SERVICE
+22/tcp   open     ssh
+25/tcp   open     smtp
+80/tcp   open     http
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+3306/tcp open     mysql
+5000/tcp open     upnp
+5666/tcp open     nrpe
+
+Nmap scan report for 192.248.22.125
+Host is up (0.047s latency).
+Not shown: 989 closed ports
+PORT      STATE    SERVICE
+22/tcp    open     ssh
+25/tcp    open     smtp
+80/tcp    open     http
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+443/tcp   open     https
+445/tcp   filtered microsoft-ds
+2005/tcp  filtered deslogin
+5666/tcp  open     nrpe
+8080/tcp  open     http-proxy
+10626/tcp filtered unknown
+
+Nmap scan report for 192.248.22.131
+Host is up (0.038s latency).
+Not shown: 992 closed ports
+PORT     STATE    SERVICE
+22/tcp   open     ssh
+25/tcp   open     smtp
+111/tcp  open     rpcbind
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+1032/tcp filtered iad3
+3306/tcp open     mysql
+
+Nmap scan report for 192.248.22.132
+Host is up (0.037s latency).
+Not shown: 994 closed ports
+PORT     STATE    SERVICE
+22/tcp   open     ssh
+25/tcp   open     smtp
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+5666/tcp open     nrpe
+
+Nmap scan report for 192.248.22.134
+Host is up (0.042s latency).
+Not shown: 991 closed ports
+PORT     STATE    SERVICE
+22/tcp   open     ssh
+25/tcp   open     smtp
+80/tcp   open     http
+111/tcp  open     rpcbind
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+445/tcp  filtered microsoft-ds
+625/tcp  filtered apple-xsrvr-admin
+8010/tcp open     xmpp
+
+Nmap scan report for 192.248.22.141
+Host is up (0.035s latency).
+Not shown: 997 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+25/tcp open  smtp
+80/tcp open  http
+
+Nmap scan report for 192.248.22.160
+Host is up (0.046s latency).
+Not shown: 981 closed ports
+PORT     STATE    SERVICE
+21/tcp   open     ftp
+22/tcp   filtered ssh
+25/tcp   open     smtp
+53/tcp   open     domain
+80/tcp   open     http
+110/tcp  open     pop3
+111/tcp  open     rpcbind
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+143/tcp  open     imap
+443/tcp  open     https
+445/tcp  filtered microsoft-ds
+465/tcp  open     smtps
+587/tcp  open     submission
+993/tcp  open     imaps
+995/tcp  open     pop3s
+3306/tcp open     mysql
+5666/tcp open     nrpe
+8081/tcp open     blackice-icecap
+
+Nmap scan report for 192.248.22.164
+Host is up (0.038s latency).
+Not shown: 991 closed ports
+PORT     STATE    SERVICE
+22/tcp   open     ssh
+25/tcp   open     smtp
+80/tcp   open     http
+111/tcp  open     rpcbind
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+443/tcp  open     https
+445/tcp  filtered microsoft-ds
+3306/tcp open     mysql
+
+Nmap scan report for 192.248.22.171
+Host is up (0.036s latency).
+Not shown: 997 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+25/tcp   open  smtp
+5666/tcp open  nrpe
+
+Nmap scan report for 192.248.22.175
+Host is up (0.039s latency).
+Not shown: 989 closed ports
+PORT      STATE    SERVICE
+22/tcp    open     ssh
+25/tcp    open     smtp
+80/tcp    open     http
+111/tcp   open     rpcbind
+135/tcp   filtered msrpc
+139/tcp   filtered netbios-ssn
+445/tcp   filtered microsoft-ds
+1107/tcp  filtered isoipsigport-2
+3306/tcp  open     mysql
+49157/tcp filtered unknown
+62078/tcp filtered iphone-sync
+
+Nmap scan report for 192.248.22.183
+Host is up (0.037s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+25/tcp  open  smtp
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for 192.248.22.192
+Host is up (0.043s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+25/tcp  open  smtp
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for 192.248.22.210
+Host is up (0.039s latency).
+Not shown: 996 closed ports
+PORT    STATE    SERVICE
+25/tcp  open     smtp
+135/tcp filtered msrpc
+139/tcp filtered netbios-ssn
+445/tcp filtered microsoft-ds
+
+Nmap done: 256 IP addresses (34 hosts up) scanned in 333.42 seconds
+naush@naush-lap:~$ mysql
+

@@ -1,0 +1,258 @@
+Log file for 2/4/2019
+----------------------
+
+
+[ 12:28:37 PM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 12:28:37 PM ]   /+\ Connection to database recovadb at 127.0.0.1 using user name root successful !
+
+[ 12:28:37 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM school"
+
+[ 12:28:37 PM ]   /+\ Fetching data successful, records found !
+
+[ 12:28:37 PM ]   /*\ Attempting to close recordsID 1
+
+[ 12:28:37 PM ]   /+\ Closing records success !
+
+[ 12:28:37 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM teacher"
+
+[ 12:28:37 PM ]   /+\ Fetching data successful, records found !
+
+[ 12:28:37 PM ]   /*\ Attempting to close recordsID 1
+
+[ 12:28:37 PM ]   /+\ Closing records success !
+
+[ 12:28:37 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT SUM(numStud) FROM teacher"
+
+[ 12:28:37 PM ]   /+\ Fetching data successful, records found !
+
+[ 12:28:37 PM ]   /*\ Attempting to close recordsID 1
+
+[ 12:28:37 PM ]   /+\ Closing records success !
+
+[ 12:28:37 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=1"
+
+[ 12:28:37 PM ]   /+\ Fetching data successful, records found !
+
+[ 12:28:37 PM ]   /*\ Attempting to close recordsID 1
+
+[ 12:28:37 PM ]   /+\ Closing records success !
+
+[ 12:28:37 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=2"
+
+[ 12:28:37 PM ]   /+\ Fetching data successful, records found !
+
+[ 12:28:37 PM ]   /*\ Attempting to close recordsID 1
+
+[ 12:28:37 PM ]   /+\ Closing records success !
+
+[ 12:28:37 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=3"
+
+[ 12:28:37 PM ]   /+\ Fetching data successful, records found !
+
+[ 12:28:37 PM ]   /*\ Attempting to close recordsID 1
+
+[ 12:28:37 PM ]   /+\ Closing records success !
+
+[ 12:28:37 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM teacher WHERE name IS NULL"
+
+[ 12:28:37 PM ]   /+\ Fetching data successful, records found !
+
+[ 12:28:37 PM ]   /*\ Attempting to close recordsID 1
+
+[ 12:28:37 PM ]   /+\ Closing records success !
+
+[ 12:28:37 PM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 12:28:37 PM ]   /+\ Connection to database recovadb at 127.0.0.1 using user name root successful !
+
+[ 12:28:37 PM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 12:28:37 PM ]   /+\ Connection to database recovadb at 127.0.0.1 using user name root successful !
+
+[ 1:21:33 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id FROM teacher WHERE schoolId="""
+
+[ 1:21:33 PM ]   /!\ Query didn't return any records !
+
+[ 1:21:33 PM ]   /!\ Fetching data failed !
+
+[ 1:24:23 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT name FROM school WHERE id="10001""
+
+[ 1:24:23 PM ]   /+\ Fetching data successful, records found !
+
+[ 1:24:23 PM ]   /*\ Attempting to close recordsID 1
+
+[ 1:24:23 PM ]   /+\ Closing records success !
+
+[ 1:24:25 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id FROM teacher WHERE schoolId="10001""
+
+[ 1:24:25 PM ]   /+\ Fetching data successful, records found !
+
+[ 1:24:26 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,appMethod,telephone,numStud,user FROM teacher WHERE schoolId="10001""
+
+[ 1:24:26 PM ]   /+\ Fetching data successful, records found !
+
+[ 1:24:26 PM ]   /*\ Attempting to close recordsID 1
+
+[ 1:24:26 PM ]   /+\ Closing records success !
+
+[ 1:24:26 PM ]   /*\ Attempting to close recordsID 1
+
+[ 1:24:26 PM ]   /!\ Closing records failed !
+
+[ 1:27:53 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,name,gender,dob,grade,slmc,medium FROM student WHERE teacherId="18""
+
+[ 1:27:53 PM ]   /+\ Fetching data successful, records found !
+
+[ 1:27:53 PM ]   /*\ Attempting to close recordsID 1
+
+[ 1:27:53 PM ]   /+\ Closing records success !
+
+[ 1:51:35 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM school"
+
+[ 1:51:35 PM ]   /+\ Fetching data successful, records found !
+
+[ 1:51:35 PM ]   /*\ Attempting to close recordsID 1
+
+[ 1:51:35 PM ]   /+\ Closing records success !
+
+[ 1:51:35 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM teacher"
+
+[ 1:51:35 PM ]   /+\ Fetching data successful, records found !
+
+[ 1:51:35 PM ]   /*\ Attempting to close recordsID 1
+
+[ 1:51:35 PM ]   /+\ Closing records success !
+
+[ 1:51:35 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT SUM(numStud) FROM teacher"
+
+[ 1:51:35 PM ]   /+\ Fetching data successful, records found !
+
+[ 1:51:35 PM ]   /*\ Attempting to close recordsID 1
+
+[ 1:51:35 PM ]   /+\ Closing records success !
+
+[ 1:51:35 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=1"
+
+[ 1:51:35 PM ]   /+\ Fetching data successful, records found !
+
+[ 1:51:35 PM ]   /*\ Attempting to close recordsID 1
+
+[ 1:51:35 PM ]   /+\ Closing records success !
+
+[ 1:51:35 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=2"
+
+[ 1:51:35 PM ]   /+\ Fetching data successful, records found !
+
+[ 1:51:35 PM ]   /*\ Attempting to close recordsID 1
+
+[ 1:51:35 PM ]   /+\ Closing records success !
+
+[ 1:51:35 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=3"
+
+[ 1:51:35 PM ]   /+\ Fetching data successful, records found !
+
+[ 1:51:35 PM ]   /*\ Attempting to close recordsID 1
+
+[ 1:51:35 PM ]   /+\ Closing records success !
+
+[ 1:51:35 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM teacher WHERE name IS NULL"
+
+[ 1:51:35 PM ]   /+\ Fetching data successful, records found !
+
+[ 1:51:35 PM ]   /*\ Attempting to close recordsID 1
+
+[ 1:51:35 PM ]   /+\ Closing records success !
+
+[ 1:51:36 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM school"
+
+[ 1:51:36 PM ]   /+\ Fetching data successful, records found !
+
+[ 1:51:36 PM ]   /*\ Attempting to close recordsID 1
+
+[ 1:51:36 PM ]   /+\ Closing records success !
+
+[ 1:51:36 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM teacher"
+
+[ 1:51:36 PM ]   /+\ Fetching data successful, records found !
+
+[ 1:51:36 PM ]   /*\ Attempting to close recordsID 1
+
+[ 1:51:36 PM ]   /+\ Closing records success !
+
+[ 1:51:36 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT SUM(numStud) FROM teacher"
+
+[ 1:51:36 PM ]   /+\ Fetching data successful, records found !
+
+[ 1:51:36 PM ]   /*\ Attempting to close recordsID 1
+
+[ 1:51:36 PM ]   /+\ Closing records success !
+
+[ 1:51:36 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=1"
+
+[ 1:51:36 PM ]   /+\ Fetching data successful, records found !
+
+[ 1:51:36 PM ]   /*\ Attempting to close recordsID 1
+
+[ 1:51:36 PM ]   /+\ Closing records success !
+
+[ 1:51:36 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=2"
+
+[ 1:51:36 PM ]   /+\ Fetching data successful, records found !
+
+[ 1:51:36 PM ]   /*\ Attempting to close recordsID 1
+
+[ 1:51:36 PM ]   /+\ Closing records success !
+
+[ 1:51:36 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=3"
+
+[ 1:51:36 PM ]   /+\ Fetching data successful, records found !
+
+[ 1:51:36 PM ]   /*\ Attempting to close recordsID 1
+
+[ 1:51:36 PM ]   /+\ Closing records success !
+
+[ 1:51:37 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM teacher WHERE name IS NULL"
+
+[ 1:51:37 PM ]   /+\ Fetching data successful, records found !
+
+[ 1:51:37 PM ]   /*\ Attempting to close recordsID 1
+
+[ 1:51:37 PM ]   /+\ Closing records success !
+
+[ 1:51:44 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT name FROM school WHERE id="10001""
+
+[ 1:51:44 PM ]   /+\ Fetching data successful, records found !
+
+[ 1:51:44 PM ]   /*\ Attempting to close recordsID 1
+
+[ 1:51:44 PM ]   /+\ Closing records success !
+
+[ 1:51:47 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id FROM teacher WHERE schoolId="10001""
+
+[ 1:51:47 PM ]   /+\ Fetching data successful, records found !
+
+[ 1:51:48 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,appMethod,telephone,numStud,user FROM teacher WHERE schoolId="10001""
+
+[ 1:51:48 PM ]   /+\ Fetching data successful, records found !
+
+[ 1:51:48 PM ]   /*\ Attempting to close recordsID 1
+
+[ 1:51:48 PM ]   /+\ Closing records success !
+
+[ 1:51:48 PM ]   /*\ Attempting to close recordsID 1
+
+[ 1:51:48 PM ]   /!\ Closing records failed !
+
+[ 1:51:49 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,name,gender,dob,grade,slmc,medium FROM student WHERE teacherId="1""
+
+[ 1:51:49 PM ]   /+\ Fetching data successful, records found !
+
+[ 1:51:49 PM ]   /*\ Attempting to close recordsID 1
+
+[ 1:51:49 PM ]   /+\ Closing records success !
+
+[ 1:53:01 PM ]   /*\ Attempting to disconnect from a database at connectionID 1
+
+[ 1:53:01 PM ]   /+\ Disconnected successfully !
+

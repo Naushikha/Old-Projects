@@ -1,0 +1,39 @@
+-----Current_date-----
+2018/5/1,1:24:30 PM
+-----Inventory_before_purchase-----
+Patch Panel,50
+Cable Management,50
+0.5m Patch cord (Blue),50
+2m Patch cord (Blue),50
+Keystones,50
+Faceplate (Single),50
+Faceplate (Dual),50
+UPS (650V),50
+UPS (1KV),50
+UPS (2KV),50
+-----Supplier-----
+ABC Corp
+-----Products_purchased-----
+Patch Panel,2
+Cable Management,2
+0.5m Patch cord (Blue),2
+2m Patch cord (Blue),2
+Keystones,2
+Faceplate (Single),2
+Faceplate (Dual),2
+UPS (650V),2
+UPS (1KV),2
+UPS (2KV),2
+-----Comments-----
+Example
+-----Inventory_after_purchase-----
+Patch Panel,52
+Cable Management,52
+0.5m Patch cord (Blue),52
+2m Patch cord (Blue),52
+Keystones,52
+Faceplate (Single),52
+Faceplate (Dual),52
+UPS (650V),52
+UPS (1KV),52
+UPS (2KV),52

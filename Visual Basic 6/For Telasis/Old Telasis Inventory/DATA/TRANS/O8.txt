@@ -1,0 +1,50 @@
+-----Current_date-----
+2018/5/30,6:07:05 PM
+-----Inventory_before_sale-----
+Patch Panel,50
+Cable Management,50
+0.5m Patch cord (Blue),50
+2m Patch cord (Blue),50
+1m Patch cord (Red),0
+2m Patch cord (Red),0
+1m Patch cord (Yellow),0
+2m Patch cord (Yellow),0
+1m Patch cord (Grey),0
+2m Patch cord (Grey),0
+1m Patch cord (Green),0
+2m Patch cord (Green),0
+1m Patch cord (Black),0
+2m Patch cord (Black),0
+Keystones,0
+Faceplate (Single),0
+Faceplate (Dual),0
+UPS (650V),0
+UPS (1KV),0
+UPS (2KV),0
+-----Customer-----
+savin
+-----Products_sold-----
+Patch Panel,10
+-----Comments-----
+Credit
+-----Inventory_after_sale-----
+Patch Panel,40
+Cable Management,50
+0.5m Patch cord (Blue),50
+2m Patch cord (Blue),50
+1m Patch cord (Red),0
+2m Patch cord (Red),0
+1m Patch cord (Yellow),0
+2m Patch cord (Yellow),0
+1m Patch cord (Grey),0
+2m Patch cord (Grey),0
+1m Patch cord (Green),0
+2m Patch cord (Green),0
+1m Patch cord (Black),0
+2m Patch cord (Black),0
+Keystones,0
+Faceplate (Single),0
+Faceplate (Dual),0
+UPS (650V),0
+UPS (1KV),0
+UPS (2KV),0

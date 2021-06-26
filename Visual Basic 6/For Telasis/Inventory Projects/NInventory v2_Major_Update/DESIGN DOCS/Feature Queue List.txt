@@ -1,0 +1,28 @@
+
+Version 2-
+
+1. Modify after a product has been added to the cart/ view it's entry details
+2. Better SProduct Dashboard - seperate categories, total product num    
+3.Better cart view, totals
+4.Add to cart using serial list     
+5. Advanced reporting with export support
+6. Check data integrity before submission    - DONE                
+
+If inStr(myvar, " ") Then
+    msgbox "myVar cannot contain spaces"
+ElseIf Len(myvar) > 10 Then
+    msgbox "Contains more than 10 characters"
+End If                                            
+
+NS Products
+Cable box - 2
+
+
+
+S Products
+cisco switch - 2
+sgh12344
+sgh121212
+
+jnvbjkcvb - 
+kjfgdsfjghsdfg                                           

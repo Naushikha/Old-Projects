@@ -1,0 +1,288 @@
+Log file for 2/4/2019
+----------------------
+
+
+[ 11:30:26 PM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 11:30:26 PM ]   /+\ Connection to database recova2 at 127.0.0.1 using user name root successful !
+
+[ 11:30:26 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM school"
+
+[ 11:30:26 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:30:26 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:30:26 PM ]   /+\ Closing records success !
+
+[ 11:30:26 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM teacher"
+
+[ 11:30:26 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:30:26 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:30:26 PM ]   /+\ Closing records success !
+
+[ 11:30:26 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT SUM(numStud) FROM teacher"
+
+[ 11:30:26 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:30:26 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:30:26 PM ]   /+\ Closing records success !
+
+[ 11:30:26 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=1"
+
+[ 11:30:26 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:30:26 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:30:26 PM ]   /+\ Closing records success !
+
+[ 11:30:26 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=2"
+
+[ 11:30:26 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:30:26 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:30:26 PM ]   /+\ Closing records success !
+
+[ 11:30:26 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM student WHERE slmc=3"
+
+[ 11:30:26 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:30:26 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:30:26 PM ]   /+\ Closing records success !
+
+[ 11:30:26 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM teacher WHERE name IS NULL"
+
+[ 11:30:26 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:30:26 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:30:26 PM ]   /+\ Closing records success !
+
+[ 11:30:26 PM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 11:30:26 PM ]   /+\ Connection to database recova2 at 127.0.0.1 using user name root successful !
+
+[ 11:30:26 PM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 11:30:26 PM ]   /+\ Connection to database recova2 at 127.0.0.1 using user name root successful !
+
+[ 11:30:34 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT name FROM school WHERE id="10001""
+
+[ 11:30:34 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:30:34 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:30:34 PM ]   /+\ Closing records success !
+
+[ 11:30:36 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id FROM teacher WHERE schoolId="10001""
+
+[ 11:30:36 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:30:37 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,appMethod,telephone,numStud,user,recvDate FROM teacher WHERE schoolId="10001""
+
+[ 11:30:37 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:30:37 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:30:37 PM ]   /+\ Closing records success !
+
+[ 11:30:37 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:30:37 PM ]   /!\ Closing records failed !
+
+[ 11:30:43 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,name,gender,dob,grade,slmc,medium FROM student WHERE teacherId="2""
+
+[ 11:30:43 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:30:43 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:30:43 PM ]   /+\ Closing records success !
+
+[ 11:30:44 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,name,gender,dob,grade,slmc,medium FROM student WHERE teacherId="3""
+
+[ 11:30:44 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:30:44 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:30:44 PM ]   /+\ Closing records success !
+
+[ 11:30:45 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,name,gender,dob,grade,slmc,medium FROM student WHERE teacherId="4""
+
+[ 11:30:45 PM ]   /!\ Query didn't return any records !
+
+[ 11:30:45 PM ]   /!\ Fetching data failed !
+
+[ 11:30:47 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,name,gender,dob,grade,slmc,medium FROM student WHERE teacherId="4""
+
+[ 11:30:47 PM ]   /!\ Query didn't return any records !
+
+[ 11:30:47 PM ]   /!\ Fetching data failed !
+
+[ 11:30:49 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,name,gender,dob,grade,slmc,medium FROM student WHERE teacherId="3""
+
+[ 11:30:49 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:30:49 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:30:49 PM ]   /+\ Closing records success !
+
+[ 11:30:50 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,name,gender,dob,grade,slmc,medium FROM student WHERE teacherId="2""
+
+[ 11:30:50 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:30:50 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:30:50 PM ]   /+\ Closing records success !
+
+[ 11:30:50 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,name,gender,dob,grade,slmc,medium FROM student WHERE teacherId="1""
+
+[ 11:30:50 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:30:50 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:30:50 PM ]   /+\ Closing records success !
+
+[ 11:30:51 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,name,gender,dob,grade,slmc,medium FROM student WHERE teacherId="2""
+
+[ 11:30:51 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:30:51 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:30:51 PM ]   /+\ Closing records success !
+
+[ 11:30:51 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,name,gender,dob,grade,slmc,medium FROM student WHERE teacherId="3""
+
+[ 11:30:51 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:30:51 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:30:51 PM ]   /+\ Closing records success !
+
+[ 11:30:51 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,name,gender,dob,grade,slmc,medium FROM student WHERE teacherId="4""
+
+[ 11:30:52 PM ]   /!\ Query didn't return any records !
+
+[ 11:30:52 PM ]   /!\ Fetching data failed !
+
+[ 11:30:53 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,name,gender,dob,grade,slmc,medium FROM student WHERE teacherId="3""
+
+[ 11:30:53 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:30:54 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:30:54 PM ]   /+\ Closing records success !
+
+[ 11:30:54 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,name,gender,dob,grade,slmc,medium FROM student WHERE teacherId="2""
+
+[ 11:30:54 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:30:54 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:30:54 PM ]   /+\ Closing records success !
+
+[ 11:30:55 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,name,gender,dob,grade,slmc,medium FROM student WHERE teacherId="1""
+
+[ 11:30:55 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:30:55 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:30:55 PM ]   /+\ Closing records success !
+
+[ 11:30:55 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,name,gender,dob,grade,slmc,medium FROM student WHERE teacherId="3""
+
+[ 11:30:55 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:30:55 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:30:55 PM ]   /+\ Closing records success !
+
+[ 11:30:56 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,name,gender,dob,grade,slmc,medium FROM student WHERE teacherId="2""
+
+[ 11:30:56 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:30:56 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:30:56 PM ]   /+\ Closing records success !
+
+[ 11:30:56 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,name,gender,dob,grade,slmc,medium FROM student WHERE teacherId="1""
+
+[ 11:30:57 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:30:57 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:30:57 PM ]   /+\ Closing records success !
+
+[ 11:30:57 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,name,gender,dob,grade,slmc,medium FROM student WHERE teacherId="2""
+
+[ 11:30:57 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:30:57 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:30:57 PM ]   /+\ Closing records success !
+
+[ 11:30:58 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,name,gender,dob,grade,slmc,medium FROM student WHERE teacherId="3""
+
+[ 11:30:58 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:30:58 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:30:58 PM ]   /+\ Closing records success !
+
+[ 11:30:58 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,name,gender,dob,grade,slmc,medium FROM student WHERE teacherId="4""
+
+[ 11:30:58 PM ]   /!\ Query didn't return any records !
+
+[ 11:30:58 PM ]   /!\ Fetching data failed !
+
+[ 11:31:00 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,name,gender,dob,grade,slmc,medium FROM student WHERE teacherId="4""
+
+[ 11:31:00 PM ]   /!\ Query didn't return any records !
+
+[ 11:31:00 PM ]   /!\ Fetching data failed !
+
+[ 11:31:02 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,name,gender,dob,grade,slmc,medium FROM student WHERE teacherId="4""
+
+[ 11:31:02 PM ]   /!\ Query didn't return any records !
+
+[ 11:31:02 PM ]   /!\ Fetching data failed !
+
+[ 11:31:03 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,name,gender,dob,grade,slmc,medium FROM student WHERE teacherId="3""
+
+[ 11:31:03 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:31:03 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:31:03 PM ]   /+\ Closing records success !
+
+[ 11:31:03 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,name,gender,dob,grade,slmc,medium FROM student WHERE teacherId="1""
+
+[ 11:31:03 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:31:03 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:31:03 PM ]   /+\ Closing records success !
+
+[ 11:31:04 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,name,gender,dob,grade,slmc,medium FROM student WHERE teacherId="2""
+
+[ 11:31:04 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:31:04 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:31:04 PM ]   /+\ Closing records success !
+
+[ 11:31:04 PM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT id,name,gender,dob,grade,slmc,medium FROM student WHERE teacherId="3""
+
+[ 11:31:04 PM ]   /+\ Fetching data successful, records found !
+
+[ 11:31:04 PM ]   /*\ Attempting to close recordsID 1
+
+[ 11:31:04 PM ]   /+\ Closing records success !
+
+[ 11:31:46 PM ]   /*\ Attempting to disconnect from a database at connectionID 1
+
+[ 11:31:46 PM ]   /+\ Disconnected successfully !
+

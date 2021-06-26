@@ -1,0 +1,37 @@
+-----Current_date-----
+2018/5/11,3:06:18 PM
+-----Inventory_before_sale-----
+Patch Panel,50
+Cable Management,50
+0.5m Patch cord (Blue),50
+2m Patch cord (Blue),50
+Keystones,50
+Faceplate (Single),50
+Faceplate (Dual),50
+UPS (650V),50
+UPS (1KV),50
+UPS (2KV),50
+-----Customer-----
+Made-up Corp.
+-----Products_sold-----
+Patch Panel,50
+Cable Management,50
+0.5m Patch cord (Blue),50
+2m Patch cord (Blue),50
+Keystones,50
+Faceplate (Single),50
+Faceplate (Dual),50
+UPS (650V),50
+-----Comments-----
+No comment.
+-----Inventory_after_sale-----
+Patch Panel,0
+Cable Management,0
+0.5m Patch cord (Blue),0
+2m Patch cord (Blue),0
+Keystones,0
+Faceplate (Single),0
+Faceplate (Dual),0
+UPS (650V),0
+UPS (1KV),50
+UPS (2KV),50

@@ -1,0 +1,76 @@
+Log file for 1/27/2019
+----------------------
+
+
+[ 12:44:32 AM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 12:44:32 AM ]   /+\ Connection to database inv3 at 127.0.0.1 using user name root successful !
+
+[ 12:44:32 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_category"
+
+[ 12:44:32 AM ]   /+\ Fetching data successful, records found !
+
+[ 12:44:32 AM ]   /*\ Attempting to close recordsID 1
+
+[ 12:44:32 AM ]   /+\ Closing records success !
+
+[ 12:44:32 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM prod_name WHERE catId IS NULL"
+
+[ 12:44:32 AM ]   /+\ Fetching data successful, records found !
+
+[ 12:44:32 AM ]   /*\ Attempting to close recordsID 1
+
+[ 12:44:32 AM ]   /+\ Closing records success !
+
+[ 12:44:32 AM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 12:44:32 AM ]   /+\ Connection to database inv3 at 127.0.0.1 using user name root successful !
+
+[ 12:44:32 AM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 12:44:32 AM ]   /+\ Connection to database inv3 at 127.0.0.1 using user name root successful !
+
+[ 12:44:39 AM ]   /*\ Attempting to disconnect from a database at connectionID 1
+
+[ 12:44:39 AM ]   /+\ Disconnected successfully !
+
+[ 12:44:39 AM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 12:44:39 AM ]   /+\ Connection to database inv3 at 127.0.0.1 using user name root successful !
+
+[ 12:44:39 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_category"
+
+[ 12:44:39 AM ]   /+\ Fetching data successful, records found !
+
+[ 12:44:39 AM ]   /*\ Attempting to close recordsID 1
+
+[ 12:44:39 AM ]   /+\ Closing records success !
+
+[ 12:44:39 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM prod_name WHERE catId IS NULL"
+
+[ 12:44:39 AM ]   /+\ Fetching data successful, records found !
+
+[ 12:44:40 AM ]   /*\ Attempting to close recordsID 1
+
+[ 12:44:40 AM ]   /+\ Closing records success !
+
+[ 12:44:40 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT * FROM prod_category"
+
+[ 12:44:40 AM ]   /+\ Fetching data successful, records found !
+
+[ 12:44:40 AM ]   /*\ Attempting to close recordsID 1
+
+[ 12:44:40 AM ]   /+\ Closing records success !
+
+[ 12:44:40 AM ]   /*\ Attempting to fetch data into recordsID 1 from dB using query "SELECT COUNT(id) FROM prod_name WHERE catId IS NULL"
+
+[ 12:44:40 AM ]   /+\ Fetching data successful, records found !
+
+[ 12:44:40 AM ]   /*\ Attempting to close recordsID 1
+
+[ 12:44:40 AM ]   /+\ Closing records success !
+
+[ 12:44:42 AM ]   /*\ Attempting to connect to a database using connectionID 1
+
+[ 12:44:42 AM ]   /+\ Connection to database inv3 at 127.0.0.1 using user name root successful !
+

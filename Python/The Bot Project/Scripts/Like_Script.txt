@@ -1,0 +1,4 @@
+javascript:function L(){x=document.getElementsByTagName("a");for(i=0;i<x.length;i++)if(x[i].innerHTML=="Like"&&x[i].getAttribute("class")=="_15ko _5a-2 touchable"){x[i].click();return}else{continue}};L()
+===========ORIGINAL/\==============================
+
+javascript:s=0;function L(){x=document.getElementsByTagName("a");for(i=0;i<x.length;i++)if(x[i].innerHTML=="Like"&&x[i].getAttribute("class")=="_15ko _5a-2 touchable"){x[i].click();window.scrollTo(0,document.body.scrollHeight)}else{continue}};function K(){s=s+1;if(s==5){L();s=0}};K();window.setInterval(K,2000);void(0)

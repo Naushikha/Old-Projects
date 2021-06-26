@@ -1,0 +1,4 @@
+javascript:function L(){x=document.getElementsByTagName("a");for(i=0;i<x.length;i++)if(x[i].getAttribute("data-sigil")=="menu-link icon"&&x[i].getAttribute("class")=="_19no touchable"){x[i].click();return}else{continue}};L()
+
+
+javascript:function K(){x=document.getElementsByTagName("a");for(i=0;i<x.length;i++)if(x[i].getAttribute("data-sigil")=="logout"&&x[i].getAttribute("class")=="_52x6 _5lut _5luu touchable"){x[i].click();return}else{continue}};window.scrollTo(0,document.body.scrollHeight);K()
